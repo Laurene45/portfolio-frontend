@@ -50,62 +50,62 @@ const worktimeline = [{
 
 const skills = [{
         // name:"html",
-        image: "https://ams03pap002files.storage.live.com/y4mN-znCOpMOMBkf2Uky_fGOznGjhN4kTnho9QIpJsIhGFDBQveCqhAN-Kcik4Z_yS_7Mn8Xt_Q5sU7-Y8_BnrGfKrB43c8SOsH6qyadov_MM3Bh_GwhEKH7okkjWnMgRO2vmjeQ99gWePpRUEZYqydqN6bdp1Lrfbfqxh20f2-wO1ACDZvqAhznso32bUY_D4sYaCHg6GaGbyKDuYHvylQsfiOVpKjADtWycVgJVfUo28?encodeFailures=1&width=512&height=512",
+        image: "",
         // value: 18,
     },
     {
         // name:"css",
-        image: "https://ams03pap002files.storage.live.com/y4miz8W-gPnO1FCdtx7L18gE6Ct6vRrIlOniHm77h8eC14otpU6C4OH-OzViHvRox3lT1dL-nuqGI1ELRYcHTsxufHAjIA80RzM1zVdShgA7jxAPhHvnXvYHvciXd2i6VTES3ZrEFmw7XQIoHJJQjn_fzvxLPeXRoAA0-2O9l4_1p5owFjbJQAVXXGw3cc7VXNVzaFy21YaLR1O4tcesJXQRMausKT-_ltscNIPKE-ZsfM?encodeFailures=1&width=512&height=512",
+        image: "https://ams03pap002files.storage.live.com/y4mhYU1glgza-xm38r5J57VRQR7h5-p_ESyCsrWa9WQsYkXWG38mns-4J6cDodcwndmits4fYrkjolubACo10r6ljiJaYOw_CDwu1dDboBJOKm1vOgfCMiG6Jl5S-kq0dNtrhiBlOs6DQNNSHn1Q3lthgkV0FfWpvryuOrjyZWwmG7-SNwIvNLvKO6UYBp_3b-EOrgAWTHFW5yoPHCyca8paKsWZVZCHCWT2MI0fAK-bUk?encodeFailures=1&width=512&height=512",
         // value: 18,
     },
     {
         // name:"js",
-        image: "https://ams03pap002files.storage.live.com/y4mku2kygU56oq2UfBJmyX8skh70FlbXk8WCk2XN4XJCvi2lBZHACX11pl8k_gNmU88RhLXxKToMug47hIbB36lr1vt3BD-SZUOr7zNMoXoMb3XUmbJhtLmh977xONWQMGPF92g9D2QXKSvcPXQSbHSKajm_ThFRe3pnRDNdXyZFYxWv_JJ-MxtQCJmpdTdsfeWfNtI5FzXmTKQH3H6U1RX12Vir47meXRQqPUKdlIUing?encodeFailures=1&width=128&height=128",
+        image: "https://ams03pap002files.storage.live.com/y4m-Q9hPjjMdBSzrEgcXtxA4oCEixotCY_J7Bl7EaMJym3adm30gLKyGSKWC96Xib5tFtsCYC6sCKRriqtc6NPTGNo4h-NqzBYfphRxbjjZbMr7fNhdbsChR9lnEfe5U_HG2hdfdroigpG5T2bROlAQXgAs83LL6bPTSjfvqX2wma5wjdUYRK2rRA3I1JUN63E5YucVUv3Vu4OMU8Va0sIzShuJKAuEDMTWYl_LduqxUnk?encodeFailures=1&width=128&height=128",
         // value: 18,
     },
     {
         // name:"Sass",
-        image: "https://ams03pap002files.storage.live.com/y4mkYyHheF-Ys5Y1I8AsZ6hOb1yccq0s2yW_37Wki5ArEp-tI5q5j4Gx7xnLRAhNd_myaOBobekgx_ddxLWsDsZgYShgiRPbSrqxdQYwGY21OQNwJzyVRrUw29XGD6_UtBEOpCln9xJ3fpgEb8loUOKJX1BF0oG6ZaMI52PEeV5_aw1n75moXCA0MwPbuDfvMPOcKhRt9hwNmSyzPmXnbzvm_jJ-yoWbrjXRQOnSXMlBxg?encodeFailures=1&width=1442&height=1442",
+        image: "https://ams03pap002files.storage.live.com/y4m5jVK86jAso2JQjd5lLCoB4JXfEqUp-Y6hDggUMeVHrrd9ynbZH_RGgcInGW4iW-SelqB_rYNZMPy-MK8BURVFVNridrKbUWF8t_71DnoqcR29rSW-mxdolZqgOdYsl9LRbbjzIthpUHRFF239gcAWoy_b624w1uy9UX7jHZLDk9i8SvQSalfkKwVu-SPm8pOj0UqoZ-5-Dn-BhMvULz4j_BDiQ98eHvEXGgh-9gAxvs?encodeFailures=1&width=1442&height=1442",
         // value: 18,
     },
     {
         // name:"Bootstrap",
-        image: "https://ams03pap002files.storage.live.com/y4m1XbTwUwzKecwzuBnGC8lGJDsJdi8iRf3eYKOopUuqtqX87_J5US2vjeJOBB1GJrDAxSjSiKTTR9VvsK2HCvXGqbcXItJv0MT5MecInbF8toj9mk6OAm6bjsEDlPGYGDScW8lJZ-aP_PztuOZnnlwwCATcJeI4HBW9bolUjoi3IFUC_o19rpYVQdpk5LeFrWZ5LXAFE3Ol5BXabtotpM5KxyexHze1MY61cwIyhJBVmg?encodeFailures=1&width=512&height=512",
+        image: "https://ams03pap002files.storage.live.com/y4mix7TRW5cgvS0LjKvYp2zn9A_Ja4n9KcJisaNnhkv8DAeczZNeoc3sW0Y54Bfu25DHEQhBNhiddz3RkHAfndV5saZoxA1a9bN4GT-sKSxUj-1Gl4Q5cmKAUy2n7EB9PLA1nCBH9k55Xhorxeq1_KPzvO0mDbWf5PLW59X6SlPYhSHfLsa5BuT2jyYF93iPKr09Wi6eM5x7KpgYGhn67QNbib8V-kkd2ZIxe8zWluLrPA?encodeFailures=1&width=512&height=512",
         // value: 18,
     },
     {
         // name:"React.js",
-        image: "https://ams03pap002files.storage.live.com/y4mjNvytvmv7--_lFSaEDxEmp8j_-UDreH-YZxYnZOVS0DMHYRgNXxyy08ySpMry4xu2ABmHZZAtIWimsp_U9m2YOCEnfy9C6AxJRFlTQ1sV995-4mXXZFXa3-4jw0_wsWcbcVRncnFOGQG7NYVJN0biIhn2k664TRvzrjGHUhwFAMpu35Dc7mcI2dcJEDi0GRvb0FEeGmeICr5x-Pid0bOqgznEz9YWZNYZe4x1QbHAVc?encodeFailures=1&width=512&height=512",
+        image: "https://ams03pap002files.storage.live.com/y4mo2P1ewm7jnueOlD63VwP9txIcXe5JIEcrdkLcL2M-gsCexqjJwfc9N-uH2ac04RjPWvA2MB0QTmuuuQf1iQMzYlApwRZkU1xYP0lMFtioGYQI-M22qko11-ze0qjPcc6cV8S8Wz9psrkFZOI8y7lrz8zfI_4BiRU6tKCaiRtHji_kNecNIjJzm_d_Mljauf-y7Gif08imCuTJRXKIBoWSjnzmP7c_kMcxyETUvr7JC8?encodeFailures=1&width=512&height=512",
         // value: 18,
     },
     {
         // name:"Redux",
-        image: "https://ams03pap002files.storage.live.com/y4mLld7WVFbWUpIhGZeoAGg4yoe-8Yt7lP6d7AnuT5EjGFyGySZI18-4SfDzJnO2PcCu61yZFutrY9ifA_1kNxCoKeXGmjwtscNkFnxMcME7aUMm4v9cAnVxINaFmuVVh1xbIqOfB-vgHTka44p5OMkFzHeOXU48ZFQy83Uo41IA3mRBCO2zZyuZOm0yndUKt_cxFGMK7mjqSMno3Q2vx13iFYqpVrq8yjWujlkFOA_3OA?encodeFailures=1&width=800&height=800",
+        image: "https://ams03pap002files.storage.live.com/y4mCdYmKA3y5MGTvtme_g5NVbmAmSEOVHPp_SMu3p-nTKW0QQiahE06000dZfpYz0uwZTA0cbeR6Gg7A-huXzSUAZ7YgO5ajUwZpPrhyDbFLUOGX8MU9-h25jrkQJuNiO9VkvBNXANy1WaGNZS6FnVb-_rqrpaWx-4wAi3iVegI2Ebn8CAskjcz15CqJbRqbJYQnvxaIgzH2Y1kyFBFaxME-TkkM8FO46NzlsDjNy1uTbw?encodeFailures=1&width=800&height=800",
         // value: 18,
     },
     {
         // name:"Figma",
-        image: "https://ams03pap002files.storage.live.com/y4m07Tngu5Sl06-Yp2ZdIQJayeUYjrwUI3WBb4hcu0D9BDPpprHFHyG5Lz7ICRH6IwEhj7nYDPLymL-um1MTsT_VA_Jbqkz-3FOoDOMgD-lgJdVrqlZ7ZvPOupbNGA-I8NdWjp_lt83jk_IsMyn7NFT-iJfG7N6pFNDxPN5fk7RV0vh21O1BMbbcxXPwOLM2SRGGVPvFza4DUFs59QiRqZ0jTuWEHCFNXAS6Kcd7aBVNBg?encodeFailures=1&width=512&height=512",
+        image: "https://ams03pap002files.storage.live.com/y4mZ1diGj3BcWHpU1sHn-w6zaaUl1AALp4q4BZ43ZqSsC6uKVYn34Zt_HVwOai3A4EOY7fIxyv0_qAlfnabNshHJELVBHDK8SMAzjmDpBeAWbBLUKhzLuLMZtkkjDbHZ67f-q_oLKLDr3zcRVXwZEdsN1YqoLrRiBAJdJk9xvMpfzq5b3hwEuRlO1EILIio51OeBzF9QWJBZ7A2pRh3GVNZJAEyBnuSgPafaLequlyZuBU?encodeFailures=1&width=512&height=512",
         // value: 18,
     },
     {
         // name:"Adobe",
-        image: "https://ams03pap002files.storage.live.com/y4mJcrOuY9u9r8s3u-kGokugkfWxbYafSFyJdA4w5SzyITGBVo7nnBb8_DbWqTjvXrxpJwYhVfEOkJKxiNoXP4KRosRmTyR5ML2xBZu_jRS2JS-9UOYId0_eo89qBtrTVyW9F__Ww5f_zUoJsz18NvxiE7039QEk8hvzOo3V0AgRCaS1TvgiJbiGtOd6ILPc5A-J0Q4YV9ZhvcznlM21lDYoNGU6KorWfbnaF5s_yj8MWA?encodeFailures=1&width=512&height=512",
+        image: "https://ams03pap002files.storage.live.com/y4mGtIXZlA3b7p1FsCsDqdsgcpo5xK8F6jVFCgpNKDvcJjIWH4ktBt4sl_1eMfb7P_F1WBtGeBM7_Tv23gwIImEjiWGic2o71mRpXaLfFs7P1V57SIAIRjlechfrvOyYfOaK1ovxwaAlwSJQ1rgUfIXQtAwKYhicTL0w_ZKEhYJli24NGaUAmSum66myOYP53hR4aRGN11RcdWjqskq9EAEB23_-Td0VNRd1yl_by6-zpE?encodeFailures=1&width=512&height=512",
         // value: 18,
     },
     {
         // name:"Github",
-        image: "https://ams03pap002files.storage.live.com/y4m2T67QbFA16ktt0Vqz4C7VbOP2ccuyu-EeBbQXJBy3iGoY6S7lvxTdsgf3WDo9FGzgmwYFCefE3wyvXvQy3ku8hQU4oi3PMVJcVVLuJm963S-04Zm6t45SGX7COBMSZuVKL27mxW_h_9tWyeL7x4kvXvQSGKU_FeHJULGS1svx4xw31Yk3-X87YWxwIh6SKtxklnPf58KykfgSIVHQ0dKa0QBcaVujGBowuCjvxxx4Xc?encodeFailures=1&width=512&height=512",
+        image: "https://ams03pap002files.storage.live.com/y4m5QD8FKOAIfRjWuKsaMI85X7zURwtqZwHaH175vZ_bhy2Q7AwTHyaFu9Vebsz9F4LAQwSS_EkP247mi8jkLihZoeNaw0fHH-XQd9OD91qX64vywRYy0h4Tzkr-0m7sS7pLr9doB7fszf6s_85mEPuc4ScbZJ8kET6U-ePV6LEwMOQcc6oBcq0pQ_kqGSOiS5rfBDO_Q-2Zr9cUHhIm358EUmwlgmSHrson3mBwBq61aA?encodeFailures=1&width=512&height=512",
         // value: 18,
     },
     {
         // name:"Notion.io",
-        image: "https://ams03pap002files.storage.live.com/y4mDqw8OHWCD-v7UDVBEQWTwU70taYF3zQJpWX-bBRWz3OvriEvE2VQyLxUej7GthdS1QgYuVNT45rNG549yHb-XYBUF9lbnq6DJRYduV5YjbDfhXGP6hcVOmd3GDZswuY2Ari-qnHB_L_YolTzdEBtcf3c6rxapCpYVdGLNo7Xa8q3y4ffMKkW_c3mRmM1NxuzO8AL5pmNq5Rcpz6BSKnp0zpIck9dyBX275KFvHegOPQ?encodeFailures=1&width=512&height=512",
+        image: "https://ams03pap002files.storage.live.com/y4mxz-yComPAy_PKJY2cCQ1Ij3AzGFlM12NMMjnneraCyUNJy1TlVGSD_evUeB1OKn3lQmV7TyM4x3I-LX9dZERdfShJ5SwPjuIC_XXAOwuiJgcP5T79A10SdL2jwAab4IYyX3w1I06OdLJjveWDWXp_WlVW8rtxJpUcEOwoGPu31hN7rpUw3T6WfmgwcGFN7k2H5JtQ4Ur_3klPegfStI-Z9avECi5cS6nVgW8hInBwrU?encodeFailures=1&width=512&height=512",
         // value: 18,
     },
     {
         // name:"Trello",
-        image: "https://ams03pap002files.storage.live.com/y4mNbhGNefn4qkk7SL-KXBfM9nnXfWAAzsCIP85V2wmIyW6EZ0-ApF92yXQk7UwhTSH-BGd2ldiJROkdSSdDcFSxB8-ck03jZg6rgO6rKekNsOxnx64xq2U46HrEjM3h6hX4DrHgseccHiTmrRjjRMEOce0gdw5h0LhdzWKyawWREMRL4e7C9Xjba_Yk1bENWyghgxGfVrCuWQLDKKXNz4r_npqUpISAyubZ6euITjOVZk?encodeFailures=1&width=900&height=700",
+        image: "https://ams03pap002files.storage.live.com/y4mM-ISbE69U7F2PueAQpfJcBKKPIh5jtu0kLEVjBi067f5oxB4ZGSbUKwIte-UOGS1QZG5RTDS9NX6gEGnUqe8qewEh59uWGuaKXKVBH_8oWOyKa4zKilaHFOBxPv3CKMOMsaVzT1mzis_IkTHNmco-jRo1JDnjiwJOVyJ40xQ5sQ4SEFJ91amF-ZJRq_LimA4aU6fGD7M44su8_ey9xrN375bMlL3D2tFYLmYgnCQ5DE?encodeFailures=1&width=900&height=700",
         // value: 18,
     },
 ];
