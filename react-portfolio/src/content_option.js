@@ -50,62 +50,62 @@ const worktimeline = [{
 
 const skills = [{
         // name:"html",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/pictogrammes/html.png?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/html.png?raw=true",
         // value: 18,
     },
     {
         // name:"css",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/pictogrammes/css.png?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/css.png?raw=true",
         // value: 18,
     },
     {
         // name:"js",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/pictogrammes/javascript.png?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/javascript.png?raw=true",
         // value: 18,
     },
     {
         // name:"Sass",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/pictogrammes/sass.png?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/sass.png?raw=true",
         // value: 18,
     },
     {
         // name:"Bootstrap",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/pictogrammes/bootstrap.png?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/bootstrap.png?raw=true",
         // value: 18,
     },
     {
         // name:"React.js",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/pictogrammes/react.png?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/react.png?raw=true",
         // value: 18,
     },
     {
         // name:"Redux",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/pictogrammes/redux.png?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/redux.png?raw=true",
         // value: 18,
     },
     {
         // name:"Figma",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/pictogrammes/figma.png?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/figma.png?raw=true",
         // value: 18,
     },
     {
         // name:"Adobe",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/pictogrammes/adobe.png?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/adobe.png?raw=true",
         // value: 18,
     },
     {
         // name:"Github",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/pictogrammes/github.png?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/github.png?raw=true",
         // value: 18,
     },
     {
         // name:"Notion.io",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/pictogrammes/notion.io.png?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/notion.io.png?raw=true",
         // value: 18,
     },
     {
         // name:"Trello",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/pictogrammes/trello.jpg?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/trello.jpg?raw=true",
         // value: 18,
     },
 ];
