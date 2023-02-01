@@ -9,7 +9,7 @@ const meta = {
 const introdata = {
     title: "Laurène C.",
     animated: {
-        //first: "Création & Développement",
+        // first: "Création & Développement",
         // second: "Applications & Sites Web",
         // third: "Front-end & React.js",
         // four: "Webdesign",
@@ -204,13 +204,13 @@ const dataportfolio = [{
     },
     {
         projet: 15,
-        img: "",
+        img: "https://github.com/Laurene45/portfolio-frontend/blob/main/maquette_figma/PORTFOLIO-DEV-FRONT-%E2%80%93-Figma.png?raw=true",
         title: "PORTFOLIO",
         type : "Conception",
         description: "Conception Portfolio",
         techno: "Figma",
-        link: "https://www.figma.com/file/bcaryKYEJjV3sv0pyqbekC/PORTFOLIO-DEV-FRONT?node-id=0%3A1&t=CShOF1MRa9iInHRG-0",
-        github: "",
+        link: "https://www.figma.com/file/bcaryKYEJjV3sv0pyqbekC/PORTFOLIO-DEV-FRONT?node-id=0%3A1",
+        github: "https://github.com/Laurene45/portfolio-frontend",
     },
     {
         projet: 11,
