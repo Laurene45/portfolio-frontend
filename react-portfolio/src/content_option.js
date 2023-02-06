@@ -29,7 +29,7 @@ const dataabout = {
     title: "MaLow",
     aboutme: "Laurène C, passionnée du web et du design, j'aime affiner et améliorer les idées pour les rendre accessibles à chacun. Agile et curieuse, j'utilise toute une palette de compétences pour réaliser des sites responsives ou des applications métiers, quels que soient leurs supports numériques.",
     aboutme2: "Concrètement, je développe des projets web tenant compte de l'expérience des utilisateurs et mêlant graphisme, ergonomie dans une interface qui leur rendra la vie plus belle ! J'adhère aux échanges constructifs pour partager une vision commune autour d'un projet à l'aide de méthodes et outils créatifs.",
-    aboutme3: "Le reste du temps, l'image cuturelle et l'art font partie de ma vie ... le rêve et l'imaginaire aussi! Et quand il faut changer d'air : sauter dans un train, voyager, vibrer ... ou tout simplement méditer et laisser le corps s'exprimer posément ou en mouvement.",
+    aboutme3: "Le reste du temps, l'image culturelle et l'art font partie de ma vie ... le rêve et l'imaginaire aussi! Et quand il faut changer d'air : sauter dans un train, voyager, vibrer ... ou tout simplement méditer et laisser le corps s'exprimer posément ou en mouvement.",
 };  
 const worktimeline = [{
         jobtitle: " Formation Développeur d’applications Front-End React.Js",
