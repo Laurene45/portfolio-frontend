@@ -9,7 +9,7 @@ import {
   skills,
   services,
 } from "../../content_option";
-import CV from "../../assets/pdf/cv_dev_frontend.pdf";
+import CV from "../../assets/pdf/cv_dev_frontend2.pdf";
 import ImgCv from"../../assets/images/img_cv.png";
 
 import me2 from "../../assets/images/me2.JPG"
