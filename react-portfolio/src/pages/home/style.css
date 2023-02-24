@@ -92,7 +92,7 @@ section {
 .intro_sec .h_bg-image {
     background-size: cover;
     background-position: center;
-    min-height: 800px;
+    min-height: 1200px;
     position: relative;
         -webkit-animation:img-appearance;
                 animation:img-appearance; /*animation: img-appearance;*/
