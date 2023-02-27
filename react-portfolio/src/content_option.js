@@ -84,6 +84,21 @@ const skills = [{
         // value: 18,
     },
     {
+        // name:"Wordpress",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/wordpress.png?raw=true",
+        // value: 18,
+    },
+    {
+        // name:"Storybook",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/storybook.png?raw=true",
+        // value: 18,
+    },
+    {
+        // name:"NPM",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/npm.png?raw=true",
+        // value: 18,
+    },
+    {
         // name:"Figma",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/figma.png?raw=true",
         // value: 18,
