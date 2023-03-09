@@ -47,6 +47,11 @@ section {
     width: 50%;
 }
 
+.style{
+    font-weight: 600;
+    font-style: italic;
+}
+
 @media (max-width:991.98px) {
     .intro_sec .text,
     .intro_sec .h_bg-image {
@@ -103,6 +108,8 @@ section {
         -webkit-animation-fill-mode: initial;
                 animation-fill-mode: initial;
 }
+
+
 /*animation keyframes: img-appearance;*/
 @-webkit-keyframes img-appearance{
     0%{

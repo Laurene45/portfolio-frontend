@@ -10,6 +10,7 @@ import Headermain from "../header";
 import AnimatedCursor  from "../hooks/AnimatedCursor";
 import "./App.css";
 
+
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -32,10 +33,10 @@ export default function App() {
           outerScale={5}
         />
       </div>
-      <ScrollToTop>
-        <Headermain />
-        <AppRoutes />
-      </ScrollToTop>
+        <ScrollToTop>
+          <Headermain />
+          <AppRoutes />
+        </ScrollToTop>
     </Router>
   );
 }

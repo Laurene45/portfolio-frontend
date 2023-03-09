@@ -1,8 +1,8 @@
-const logotext = "MaLow";
+const logotext = "MaLoWeb";
 // Onglet Portfolio
 const meta = {
     title: "Laurène C.",
-    description: "Développeur Front-end React.js",
+    description: "Développeur d'applications Front-end",
 };
 
 // Intro
@@ -14,22 +14,26 @@ const introdata = {
         // third: "Front-end & React.js",
         // four: "Webdesign",
 
-        first: "Développeuse Front-end React.js",
+        first: "Front-end React.js",
         second:"Applications & Sites Web",
-        third: "Webdesign",
+        third: "WebDesign",
         four : "Conception, Développement & Gestion de projets"
       
     },
-    description: "Ma mission : développer vos projets web, quelles que soient leurs dimensions, d'une landing page à une application web. J’ai une aspiration certaine pour l'innovation et le partage d'une vision commune autour d'un projet à l'aide de méthodes et outils adaptés.",
+    subtitle: "Front-end : ",
+    resume: "Partie du code reçue par votre navigateur web. Ce sont les éléments intéractifs ou non du site web que vous apercevez sur votre écran. Ils sont composés de 3 langages: Html, Css et Javascript.",
+    subtitle2: "Ma Mission: ",
+    description: "Développer vos projets web, quelles que soient leurs dimensions : d'un site web à une application web. J’ai une aspiration certaine pour l'innovation et le partage d'une vision commune autour d'un projet à l'aide de méthodes et outils adaptés.",
     //your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    information: "Venez découvrir mon profil et consulter mes projets.",
 };
 
 //Qui suis-je?
 const dataabout = {
-    title: "MaLow",
-    aboutme: "Laurène C, passionnée du web et du design, j'aime affiner et améliorer les idées pour les rendre accessibles à chacun. Agile et curieuse, j'utilise toute une palette de compétences pour réaliser des sites responsives ou des applications métiers, quels que soient leurs supports numériques.",
-    aboutme2: "Concrètement, je développe des projets web tenant compte de l'expérience des utilisateurs et mêlant graphisme, ergonomie dans une interface qui leur rendra la vie plus belle ! J'adhère aux échanges constructifs pour partager une vision commune autour d'un projet à l'aide de méthodes et outils créatifs.",
-    aboutme3: "Le reste du temps, l'image culturelle et l'art font partie de ma vie ... le rêve et l'imaginaire aussi! Et quand il faut changer d'air : sauter dans un train, voyager, vibrer ... ou tout simplement méditer et laisser le corps s'exprimer posément ou en mouvement.",
+    title: "MaLoWeb",
+    aboutme: "Laurène C. , passionnée du web et du design, j'aime affiner et améliorer les idées pour les rendre accessibles à chacun. Agile et curieuse, j'utilise toute une palette de compétences techniques et créatives pour réaliser des sites responsives ou des applications métiers, quels que soient leurs supports numériques.",
+    aboutme2: "Concrètement, je développe des projets web tenant compte de l'expérience des utilisateurs en mêlant graphisme, ergonomie dans une interface qui leur rendra la vie plus belle ! J'adhère aux échanges constructifs pour partager une vision commune autour d'un projet à l'aide de méthodes et outils créatifs.",
+    aboutme3: "Le reste du temps, l'image culturelle, l'art, les livres fantastiques et la lithothérapie font partie de ma vie ... la magie, le rêve et l'imaginaire aussi! Et quand il faut changer d'air : sauter dans un train, voyager, vibrer, se libérer ... ou tout simplement méditer et laisser le corps s'exprimer. ",
 };  
 const worktimeline = [{
         jobtitle: " Formation Développeur d’applications Front-End React.Js",
@@ -222,7 +226,7 @@ const dataportfolio = [{
         img: "https://github.com/Laurene45/portfolio-frontend/blob/main/maquette_figma/PORTFOLIO-DEV-FRONT-%E2%80%93-Figma.png?raw=true",
         title: "PORTFOLIO",
         type : "Conception",
-        description: "Conception Portfolio",
+        description: "Portfolio",
         techno: "Figma",
         link: "https://www.figma.com/file/bcaryKYEJjV3sv0pyqbekC/PORTFOLIO-DEV-FRONT?node-id=0%3A1",
         github: "https://github.com/Laurene45/portfolio-frontend",
@@ -232,7 +236,7 @@ const dataportfolio = [{
         img: "https://github.com/Laurene45/LaureneCourde_11_24032022/blob/main/kasa/documentation/kasa.png?raw=true",
         title: "KASA",
         type : "Application",
-        description: "Application location d'appartements entre particuliers",
+        description: "Location d'appartements entre particuliers",
         techno: "React.js - React Router",
         link: "https://laurene-courde-11-24032022.vercel.app/",
         github: "https://github.com/Laurene45/LaureneCourde_11_24032022",

@@ -4,7 +4,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-import me from "../../assets/images/me1.JPG"
+import me from "../../assets/images/me1.JPG";
+
 
 export const Home = () => {
   return (
@@ -39,7 +40,12 @@ export const Home = () => {
                     }}
                   />
                 </h1>
+                <p className="mb-1x style">{introdata.subtitle}</p>
+                <p className="mb-1x">{introdata.resume}</p>
+                <p className="mb-1x style">{introdata.subtitle2}</p>
                 <p className="mb-1x">{introdata.description}</p>
+                <p className="mb-1x">{introdata.information}</p>
+                <br />
                 <div className="intro_btn-action pb-5">
                   <Link to="/projets" className="text_2">
                     <div id="button_p" className="ac_btn btn ">

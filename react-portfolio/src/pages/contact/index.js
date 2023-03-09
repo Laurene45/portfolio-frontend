@@ -95,22 +95,18 @@ export const ContactUs = () => {
           </Col>
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-4">Un projet ? Discutons ensemble</h3>
+            <p>Vous pouvez dès maintenant m’envoyer un message grâce à ce formulaire de contact.</p>
+            <br />
+            <p>Si celui-ci ne fonctionne pas, vous pouvez me contacter via mon email.</p>
+            <br />
             <address>
               <strong>Email:</strong>{" "}
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
               </a>
               <br />
-              <br />
-              {contactConfig.hasOwnProperty("YOUR_FONE") ? (
-                <p>
-                  <strong>Mobile:</strong> {contactConfig.YOUR_FONE}
-                </p>
-              ) : (
-                ""
-              )}
+              
             </address>
-            <p>{contactConfig.description}</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">

@@ -12,7 +12,7 @@ import {
 import CV from "../../assets/pdf/cv_dev_frontend.pdf";
 import ImgCv from"../../assets/images/img_cv.png";
 
-import me2 from "../../assets/images/me2.JPG"
+//import me2 from "../../assets/images/me2.JPG"
 
 export const About = () => {
   return (
@@ -32,7 +32,7 @@ export const About = () => {
         <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4"> {dataabout.title}</h3>
-            <img className="mon_image" src={me2} alt="photo_de_moi" />
+            {/* <img className="mon_image" src={me2} alt="photo_de_moi" /> */}
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
@@ -40,8 +40,8 @@ export const About = () => {
               <p>{dataabout.aboutme2}</p>
               <p>{dataabout.aboutme3}</p>
               <a href={CV}> 
-                <img src={ImgCv} alt="" style={{ "width":"40px" , "marginRight" : "20px" , "marginTop" : "20px" , "marginLeft" : "10px"}}/>
-              Télécharger CV
+                <img src={ImgCv} alt="" style={{ "width":"35px" , "marginRight" : "20px" , "marginTop" : "20px" , "marginLeft" : "10px"}}/>
+              Mon CV
               </a>
             </div>
           </Col>
