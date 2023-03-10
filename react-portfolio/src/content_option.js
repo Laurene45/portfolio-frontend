@@ -21,7 +21,7 @@ const introdata = {
       
     },
     subtitle: "Front-end : ",
-    resume: "Partie du code reçue par votre navigateur web. Ce sont les éléments intéractifs ou non du site web que vous apercevez sur votre écran. Ils sont composés de 3 langages: Html, Css et Javascript.",
+    resume: " Front-end : Partie du code reçue par votre navigateur web. Ce sont les éléments intéractifs ou non du site web que vous apercevez sur votre écran. Ils sont composés de 3 langages: Html, Css et Javascript.",
     subtitle2: "Ma Mission: ",
     description: "Développer vos projets web, quelles que soient leurs dimensions : d'un site web à une application web. J’ai une aspiration certaine pour l'innovation et le partage d'une vision commune autour d'un projet à l'aide de méthodes et outils adaptés.",
     //your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
