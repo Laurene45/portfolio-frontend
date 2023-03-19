@@ -2,28 +2,30 @@ const logotext = "MaLoWeb";
 // Onglet Portfolio
 const meta = {
     title: "Laurène C.",
-    description: "Développeur d'applications Front-end",
+    description: "Développeur front-end",
 };
 
 // Intro
 const introdata = {
     title: "Laurène C.",
+    job: "Développeur Front-end",
     animated: {
         // first: "Création & Développement",
         // second: "Applications & Sites Web",
         // third: "Front-end & React.js",
         // four: "Webdesign",
 
-        first: "Front-end React.js",
-        second:"Applications & Sites Web",
-        third: "WebDesign",
-        four : "Conception, Développement & Gestion de projets"
+        first: "Développeur Front-end",
+        second:"React.js",
+        third: "Applications & Sites Web",
+        four : "WebDesign",
+        five : "Conception, Développement & Gestion de projets"
       
     },
-    subtitle: "Front-end : ",
-    resume: " Front-end : Partie du code reçue par votre navigateur web. Ce sont les éléments intéractifs ou non du site web que vous apercevez sur votre écran. Ils sont composés de 3 langages: Html, Css et Javascript.",
-    subtitle2: "Ma Mission: ",
-    description: "Développer vos projets web, quelles que soient leurs dimensions : d'un site web à une application web. J’ai une aspiration certaine pour l'innovation et le partage d'une vision commune autour d'un projet à l'aide de méthodes et outils adaptés.",
+    //subtitle: "Front-end : ",
+    //resume: " Front-end : Partie du code reçue par votre navigateur web. Ce sont les éléments intéractifs ou non du site web que vous apercevez sur votre écran. Ils sont composés de 3 langages: Html, Css et Javascript.",
+    //subtitle2: "Ma Mission: ",
+    description: " Ma mission : développer vos projets web, quelles que soient leurs dimensions : d'une landing page, d'un site web à une application web. J’ai une aspiration certaine pour l'innovation et le partage d'une vision commune autour d'un projet à l'aide de méthodes et outils adaptés.",
     //your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
     information: "Venez découvrir mon profil et consulter mes projets.",
 };
@@ -53,77 +55,77 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        // name:"html",
+        name:"HTML5",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/html.png?raw=true",
         // value: 18,
     },
     {
-        // name:"css",
+        name:"CSS3",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/css.png?raw=true",
         // value: 18,
     },
     {
-        // name:"js",
+        name:"JAVASCRIPT",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/javascript.png?raw=true",
         // value: 18,
     },
     {
-        // name:"Sass",
+        name:"SASS",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/sass.png?raw=true",
         // value: 18,
     },
     {
-        // name:"Bootstrap",
+        name:"Bootstrap",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/bootstrap.png?raw=true",
         // value: 18,
     },
     {
-        // name:"React.js",
+        name:"REACT.JS",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/react.png?raw=true",
         // value: 18,
     },
     {
-        // name:"Redux",
+        name:"REDUX",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/redux.png?raw=true",
         // value: 18,
     },
     {
-        // name:"Wordpress",
+        name:"WORDPRESS",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/wordpress.png?raw=true",
         // value: 18,
     },
     {
-        // name:"Storybook",
+        name:"STORYBOOK",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/storybook.png?raw=true",
         // value: 18,
     },
     {
-        // name:"NPM",
+        name:"NPM",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/npm.png?raw=true",
         // value: 18,
     },
     {
-        // name:"Figma",
+        name:"FIGMA",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/figma.png?raw=true",
         // value: 18,
     },
     {
-        // name:"Adobe",
+        name:"ADOBE",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/adobe.png?raw=true",
         // value: 18,
     },
     {
-        // name:"Github",
+        name:"GITHUB",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/github.png?raw=true",
         // value: 18,
     },
     {
-        // name:"Notion.io",
+        name:"NOTION.IO",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/notion.io.png?raw=true",
         // value: 18,
     },
     {
-        // name:"Trello",
+        name:"TRELLO",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/trello.jpg?raw=true",
         // value: 18,
     },

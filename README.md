@@ -42,4 +42,4 @@ A portfolio for frontend developer with React.js.
   
 ### Author
 
-MaLow
+MaLow (Laurene45)

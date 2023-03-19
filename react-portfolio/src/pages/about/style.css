@@ -4,8 +4,9 @@
 
 .mon_image {
     width: 160px; 
-    border-radius: 70% 30% 70% 30%/20% 80% 30% 70%;
-    border: solid 1px #FFFFFF;
+    border-radius: 20% 20% 20% 20%;
+    /*border-radius: 70% 30% 70% 30%/20% 80% 30% 70%; */
+    /*border: solid 1px #FFFFFF;*/
     position: relative;
     left: 30%;
 }
@@ -62,7 +63,7 @@
 }
 
 .progress-title {
-    font-size: 16px;
+    font-size: 14px;
     /* font-weight: 700; */
     margin: 15px 0 10px;
     font-family: 'Raleway';
@@ -77,16 +78,16 @@
     overflow: visible;
 }
 
-.progress .progress-bar {
+/* .progress .progress-bar {
     position: relative;
     background: var(--text-color);
     -webkit-animation: animate-positive 2s;
             animation: animate-positive 2s;
     overflow: visible;
     opacity: 0.9;
-}
+} */
 
-.progress .progress-value {
+/* .progress .progress-value {
     position: absolute;
     top: -30px;
     right: 8px;
@@ -106,7 +107,7 @@
     0% {
         width: 0%;
     }
-}
+} */
 
 .section-title {
     font-size: 45px;
@@ -122,26 +123,58 @@
 }
 
 
-/*! CSS Used keyframes */
+/*Animationn on H3  */
 
-@-webkit-keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translateZ(0);
-    }
+.fade-in-left {
+	-webkit-animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
-@keyframes fadeInUp {
+
+ @-webkit-keyframes fade-in-left {
     0% {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
+      transform: translateX(-50px);
+      opacity: 0;
     }
-    to {
-        opacity: 1;
-        transform: translateZ(0);
+    100% {
+      transform: translateX(0);
+      opacity: 1;
     }
+  }
+  @keyframes fade-in-left {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-right {
+	-webkit-animation: fade-in-right 1.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-right 1.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
+ @-webkit-keyframes fade-in-right {
+    0% {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-right {
+    0% {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  

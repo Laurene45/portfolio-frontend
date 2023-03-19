@@ -25,8 +25,25 @@ button.btn.ac_btn:hover {
     z-index: 999999999;
     background: var(--text-color);
     transform: translateX(100%);
-    animation: shift-rightwards 1s ease-in-out infinite;
-    animation-delay: .3s;
+    -webkit-animation: shift-rightwards 1s ease-in-out infinite;
+            animation: shift-rightwards 1s ease-in-out infinite;
+    -webkit-animation-delay: .3s;
+            animation-delay: .3s;
+}
+
+@-webkit-keyframes shift-rightwards {
+    0% {
+        transform: translateX(-100%);
+    }
+    40% {
+        transform: translateX(0%);
+    }
+    60% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
 }
 
 @keyframes shift-rightwards {

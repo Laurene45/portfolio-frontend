@@ -12,7 +12,7 @@ import {
 import CV from "../../assets/pdf/cv_dev_frontend.pdf";
 import ImgCv from"../../assets/images/img_cv.png";
 
-//import me2 from "../../assets/images/me2.JPG"
+import moi from "../../assets/images/me1.JPG"
 
 export const About = () => {
   return (
@@ -29,10 +29,10 @@ export const About = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <Row className="sec_sp">
+        <Row className="sec_sp fade-in-left">
           <Col lg="5">
             <h3 className="color_sec py-4"> {dataabout.title}</h3>
-            {/* <img className="mon_image" src={me2} alt="photo_de_moi" /> */}
+            <img className="mon_image" src={moi} alt="photo_de_moi" />
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
@@ -46,7 +46,7 @@ export const About = () => {
             </div>
           </Col>
         </Row>
-        <Row className=" sec_sp">
+        <Row className=" sec_sp fade-in-right">
           <Col lg="5">
             <h3 className="color_sec py-4">Formations</h3>
           </Col>
@@ -66,7 +66,7 @@ export const About = () => {
             </table>
           </Col>
         </Row>
-        <Row className="sec_sp">
+        <Row className="sec_sp fade-in-left">
           <Col lg="5">
             <h3 className="color_sec py-4">Compétences</h3>
           </Col>
@@ -75,8 +75,8 @@ export const About = () => {
           {skills.map((data, i) => {
             return (
               <div className="box_image_taille" key={i}>
-                  <h4 className="progress-title">{data.name}</h4>
                   <img className="img_icon" src={data.image} alt="icon" style={{ "width":"30px"}}></img>
+                  <h4 className="progress-title">{data.name}</h4>
                   {/* <div className="progress">
                     <div
                       className="progress-bar"
@@ -93,7 +93,7 @@ export const About = () => {
             </div> 
           </Col>
         </Row>
-        <Row className="sec_sp">
+        <Row className="sec_sp fade-in-right ">
           <Col lang="5">
             <h3 className="color_sec py-4">Services</h3>
           </Col>
