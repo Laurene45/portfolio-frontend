@@ -9,8 +9,8 @@ import {
   skills,
   services,
 } from "../../content_option";
-import CV from "../../assets/pdf/cv_dev_frontend.pdf";
-import ImgCv from"../../assets/images/picto_cv.png";
+//import CV from "../../assets/pdf/cv_dev_frontend.pdf";
+//import ImgCv from"../../assets/images/picto_cv.png";
 
 import moi from "../../assets/images/me1.JPG"
 
@@ -39,10 +39,10 @@ export const About = () => {
               <p>{dataabout.aboutme}</p>
               <p>{dataabout.aboutme2}</p>
               <p>{dataabout.aboutme3}</p>
-              <a href={CV}> 
+              {/* {/* <a href={CV}> 
                 <img src={ImgCv} alt="" style={{ "width":"40px" , "marginRight" : "5px"  , "marginLeft" : "10px"}}/>
               CV
-              </a>
+              </a> */}
             </div>
           </Col>
         </Row>
