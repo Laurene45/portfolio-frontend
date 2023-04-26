@@ -149,17 +149,18 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
-    // en colonne
-        projet: 2,
-        img: "https://github.com/Laurene45/LaureneCourde_2_24032021/blob/main/Documentation/Reservia.png?raw=true",
-        title: "RESERVIA",
-        type : "Site web",
-        description: "Réservation de location",
-        techno: "Html / Css",
-        link: "https://laurene45.github.io/LaureneCourde_2_24032021/",
-        github: "https://github.com/Laurene45/LaureneCourde_2_24032021",
-    },
+// en colonne - 16 projets
+const dataportfolio = [
+    // {
+    //     projet: 2,
+    //     img: "https://github.com/Laurene45/LaureneCourde_2_24032021/blob/main/Documentation/Reservia.png?raw=true",
+    //     title: "RESERVIA",
+    //     type : "Site web",
+    //     description: "Réservation de location",
+    //     techno: "Html / Css",
+    //     link: "https://laurene45.github.io/LaureneCourde_2_24032021/",
+    //     github: "https://github.com/Laurene45/LaureneCourde_2_24032021",
+    // },
     {
         projet: 3,
         img: "https://github.com/Laurene45/LaureneCourde_3_19042021/blob/main/documentation/Ohmyfood.png?raw=true",
@@ -204,7 +205,7 @@ const dataportfolio = [{
     //p8 : Test
     {
         projet: 9,
-        img: "https://github.com/Laurene45/Billed-app-FR-Front/blob/main/documentation/billed.png?raw=true",
+        img: "https://github.com/Laurene45/Billed-app-FR-Front/blob/main/documentation/billed.JPG?raw=true",
         title: "BILLED",
         type : "Saas RH",
         description: "Tests unitaires, intégration, plan E2E",
@@ -235,13 +236,23 @@ const dataportfolio = [{
     },
     {
         projet: 11,
-        img: "https://github.com/Laurene45/LaureneCourde_11_24032022/blob/main/kasa/documentation/kasa.png?raw=true",
+        img: "https://github.com/Laurene45/LaureneCourde_11_24032022/blob/main/kasa/documentation/React-App-kasa.png?raw=true",
         title: "KASA",
         type : "Application",
         description: "Location d'appartements entre particuliers",
         techno: "React.js - React Router",
         link: "https://laurene-courde-11-24032022.vercel.app/",
         github: "https://github.com/Laurene45/LaureneCourde_11_24032022",
+    },
+    {
+        projet: 16,
+        img: "https://github.com/Laurene45/travel-react-tailwindcss/blob/main/img_website/React-App-travel-website.png?raw=truee",
+        title: "BEACHES TRAVEL",
+        type : "Application",
+        description: "Voyages",
+        techno: "React.js / TailWindCSS",
+        link: "https://travel-react-tailwindcss.vercel.app/",
+        github: "https://github.com/Laurene45/travel-react-tailwindcss",
     },
     {
         projet: 12,
