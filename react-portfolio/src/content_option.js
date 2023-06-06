@@ -149,7 +149,7 @@ const skills = [{
         
         category: "Gestion de projet :",
         name:"Notion",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/notion.io.png?raw=true",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/notion.png?raw=true",
         // value: 18,
     },
     {
