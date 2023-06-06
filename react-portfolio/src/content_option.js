@@ -7,7 +7,7 @@ const meta = {
 
 // Intro
 const introdata = {
-    title: "Laurène C.",
+    title: "Laurène COURDE.",
     job: "Développeur Front-end",
     animated: {
         // first: "Création & Développement",
@@ -18,8 +18,8 @@ const introdata = {
         first: "Développeur Front-end",
         second:"React.js",
         third: "Applications & Sites Web",
-        four : "WebDesign",
-        five : "Conception, Développement & Gestion de projets"
+        four : "Conception, Développement & Gestion de projets",
+        //five : "WebDesign" "Conception, Développement & Gestion de projets"
       
     },
     //subtitle: "Front-end : ",
@@ -33,100 +33,129 @@ const introdata = {
 //Qui suis-je?
 const dataabout = {
     title: "MaLoWeb",
-    aboutme: "Laurène C. , passionnée du web et du design, j'aime affiner et améliorer les idées pour les rendre accessibles à chacun. Agile et curieuse, j'utilise toute une palette de compétences techniques et créatives pour réaliser des sites responsives ou des applications métiers, quels que soient leurs supports numériques.",
+    aboutme: "Laurène, passionnée du web et de l'image, j'aime affiner et améliorer les idées pour les rendre accessibles à chacun. Agile et curieuse, j'utilise toute une palette de compétences techniques et créatives pour réaliser des sites web responsives ou des applications métiers, quels que soient leurs supports numériques.",
     aboutme2: "Concrètement, je développe des projets web tenant compte de l'expérience des utilisateurs en mêlant graphisme, ergonomie dans une interface qui leur rendra la vie plus belle ! J'adhère aux échanges constructifs pour partager une vision commune autour d'un projet à l'aide de méthodes et outils créatifs.",
-    aboutme3: "Le reste du temps, l'image culturelle, l'art, les livres fantastiques et la lithothérapie font partie de ma vie ... la magie, le rêve et l'imaginaire aussi! Et quand il faut changer d'air : sauter dans un train, voyager, vibrer, se libérer ... ou tout simplement méditer et laisser le corps s'exprimer. ",
+    aboutme3: "Le reste du temps, l'image culturelle, l'art, les livres fantastiques et la lithothérapie font partie de ma vie ... la magie, le rêve et l'imaginaire aussi! Et quand il faut changer d'air : sauter dans un train, voyager, vibrer... ou tout simplement se libérer. ",
 };  
 const worktimeline = [{
-        jobtitle: " Formation Développeur d’applications Front-End React.Js",
-        where: "Openclassrooms Paris",
+        jobtitle: " Formation Développeur d’applications Front-End Js / React.Js",
+        where: "Openclassrooms Paris (75)",
         date: "2021/2022",
     },
     {
         jobtitle: "Formation Webdesigner",
-        where: "Nextformation Paris",
+        where: "Nextformation Paris (75)",
         date: "2019/2020",
     },
     {
         jobtitle: "BTS Force de vente",
-        where: "Lycée Montargis",
+        where: "Lycée Montargis(45)",
         date: "2003/2005",
     },
 ];
 
 const skills = [{
-        name:"HTML5",
+
+        category: "Dev:",
+        name:"Html5",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/html.png?raw=true",
         // value: 18,
     },
     {
-        name:"CSS3",
+        category: "Dev:",
+        name:"Css3",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/css.png?raw=true",
         // value: 18,
     },
     {
-        name:"JAVASCRIPT",
+        category: "Dev:",
+        name:"Javascript",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/javascript.png?raw=true",
         // value: 18,
     },
     {
-        name:"SASS",
+        category: "Dev:",
+        name:"Sass",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/sass.png?raw=true",
         // value: 18,
     },
     {
+        category: "Dev:",
         name:"Bootstrap",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/bootstrap.png?raw=true",
         // value: 18,
     },
     {
-        name:"REACT.JS",
+        category: "Dev:",
+        name:"React.js",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/react.png?raw=true",
         // value: 18,
     },
     {
-        name:"REDUX",
+        category: "Dev:",
+        name:"Redux",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/redux.png?raw=true",
         // value: 18,
     },
     {
-        name:"WORDPRESS",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/wordpress.png?raw=true",
+        category: "Dev:",
+        name:"Vite.js",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/vite-js.png?raw=true",
         // value: 18,
     },
     {
-        name:"STORYBOOK",
+        category: "Dev:",
+        name:"Rollup",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/rollup.png?raw=true",
+        // value: 18,
+    },
+    {
+        category: "Dev:",
+        name:"Storybook",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/storybook.png?raw=true",
         // value: 18,
     },
     {
-        name:"NPM",
+        category: "Dev:",
+        name:"Npm",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/npm.png?raw=true",
         // value: 18,
     },
     {
-        name:"FIGMA",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/figma.png?raw=true",
-        // value: 18,
-    },
-    {
-        name:"ADOBE",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/adobe.png?raw=true",
-        // value: 18,
-    },
-    {
-        name:"GITHUB",
+        category: "Dev:",
+        name:"Github",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/github.png?raw=true",
         // value: 18,
     },
     {
-        name:"NOTION.IO",
+        category: "CMS:",
+        name:"Wordpress",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/wordpress.png?raw=true",
+        // value: 18,
+    },
+    {
+        category: "Conception :",
+        name:"Figma",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/figma.png?raw=true",
+        // value: 18,
+    },
+    {
+        category: "Conception :",
+        name:"Adobe",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/adobe.png?raw=true",
+        // value: 18,
+    },
+    {
+        
+        category: "Gestion de projet :",
+        name:"Notion",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/notion.io.png?raw=true",
         // value: 18,
     },
     {
-        name:"TRELLO",
-        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/trello.jpg?raw=true",
+        category: "Gestion de projet :",
+        name:"Trello",
+        image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/trello.png?raw=true",
         // value: 18,
     },
 ];
@@ -224,16 +253,16 @@ const dataportfolio = [
         link: "https://www.figma.com/file/z2SDsWS4E079MoM7LdmAaM/Appli-soutien-scolaire-DESKTOP?node-id=0%3A1",
         github: "https://github.com/Laurene45/LaureneCourde_10_22122021",
     },
-    {
-        projet: 15,
-        img: "https://github.com/Laurene45/portfolio-frontend/blob/main/maquette_figma/PORTFOLIO-DEV-FRONT-%E2%80%93-Figma.png?raw=true",
-        title: "PORTFOLIO",
-        type : "Conception",
-        description: "Portfolio",
-        techno: "Figma",
-        link: "https://www.figma.com/file/bcaryKYEJjV3sv0pyqbekC/PORTFOLIO-DEV-FRONT?node-id=0%3A1",
-        github: "https://github.com/Laurene45/portfolio-frontend",
-    },
+    // {
+    //     projet: 15,
+    //     img: "https://github.com/Laurene45/portfolio-frontend/blob/main/maquette_figma/PORTFOLIO-DEV-FRONT-%E2%80%93-Figma.png?raw=true",
+    //     title: "PORTFOLIO",
+    //     type : "Conception",
+    //     description: "Portfolio",
+    //     techno: "Figma",
+    //     link: "https://www.figma.com/file/bcaryKYEJjV3sv0pyqbekC/PORTFOLIO-DEV-FRONT?node-id=0%3A1",
+    //     github: "https://github.com/Laurene45/portfolio-frontend",
+    // },
     {
         projet: 11,
         img: "https://github.com/Laurene45/LaureneCourde_11_24032022/blob/main/kasa/documentation/React-App-kasa.png?raw=true",
@@ -245,23 +274,13 @@ const dataportfolio = [
         github: "https://github.com/Laurene45/LaureneCourde_11_24032022",
     },
     {
-        projet: 16,
-        img: "https://github.com/Laurene45/travel-react-tailwindcss/blob/main/img_website/React-App-travel-website.png?raw=truee",
-        title: "BEACHES TRAVEL",
-        type : "Application",
-        description: "Voyages",
-        techno: "React.js / TailWindCSS",
-        link: "https://travel-react-tailwindcss.vercel.app/",
-        github: "https://github.com/Laurene45/travel-react-tailwindcss",
-    },
-    {
         projet: 12,
         img: "https://github.com/Laurene45/LaureneCourde_12_19052022-/blob/main/sportsee/documentation/sportsee.png?raw=true",
         title: "SPORTSEE",
         type : "Application",
         description: "Tableau de bord analytique de coaching sportif",
         techno: "React.js - Recharts - Docker",
-        link: "https://sportsee-lovat.vercel.app/",
+        link: "https://sportsee-eight.vercel.app/",
         github: "https://github.com/Laurene45/LaureneCourde_12_19052022-",
         other: "Api Docker",
     },
@@ -286,6 +305,47 @@ const dataportfolio = [
         link: "https://hrnet-cyan.vercel.app/",
         github: "https://github.com/Laurene45/LaureneCourde_14_31082022",
     },
+    {
+        projet: 15,
+        img: "https://github.com/Laurene45/travel-react-tailwindcss/blob/main/img_website/React-App-travel-website.png?raw=truee",
+        title: "BEACHES TRAVEL",
+        type : "Application",
+        description: "Voyages",
+        techno: "React.js / TailWindCSS",
+        link: "https://travel-react-tailwindcss.vercel.app/",
+        github: "https://github.com/Laurene45/travel-react-tailwindcss",
+    },
+    {
+        projet: 16,
+        img: "https://github.com/Laurene45/app_movies/blob/main/src/assets/React-App.png?raw=true",
+        title: "APP Movies",
+        type : "Application",
+        description: "Movies & series",
+        techno: "React.js - Redux - React-slick",
+        link: "https://app-movies-sigma.vercel.app/",
+        github: "https://github.com/Laurene45/app_movies",
+    },
+    {
+        projet: 17,
+        img: "https://github.com/Laurene45/Sunnyside/blob/main/Vite-React.png?raw=true",
+        title: "Sunnyside",
+        type : "Landing Page",
+        description: "Agence créative",
+        techno: "React.js - Vite.js",
+        link: "https://sunnyside-amber.vercel.app/",
+        github: "https://github.com/Laurene45/Sunnyside",
+    },
+    {
+        projet: 18,
+        img: "",
+        title: "",
+        type : "",
+        description: "",
+        techno: "",
+        link: "",
+        github: "",
+    },
+ 
 ];
 
 const contactConfig = {

@@ -76,6 +76,7 @@ export const About = () => {
             return (
               <div className="box_image_taille" key={i}>
                   <img className="img_icon" src={data.image} alt="icon" style={{ "width":"30px"}}></img>
+                  <h4 className="progress-title">{data.category}</h4>
                   <h4 className="progress-title">{data.name}</h4>
                   {/* <div className="progress">
                     <div
