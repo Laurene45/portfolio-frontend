@@ -231,6 +231,16 @@ const dataportfolio = [
         link: "https://laurene45.github.io/LaureneCourde_7_13092021/",
         github: "https://github.com/Laurene45/LaureneCourde_7_13092021",
     },
+    {
+        projet: 18,
+        img: "https://github.com/Laurene45/photosnap/blob/main/Photosnap-Website_portfolio.png?raw=true",
+        title: "PhotoSnap",
+        type : "Site Web",
+        description: "Photographe",
+        techno: " Html / Sass / Js",
+        link: "https://laurene45.github.io/photosnap/",
+        github: "https://github.com/Laurene45/photosnap",
+    },
     //p8 : Test
     {
         projet: 9,
@@ -285,6 +295,16 @@ const dataportfolio = [
         other: "Api Docker",
     },
     {
+        projet: 15,
+        img: "https://github.com/Laurene45/travel-react-tailwindcss/blob/main/img_website/React-App-travel-website.png?raw=truee",
+        title: "BEACHES TRAVEL",
+        type : "Application",
+        description: "Voyages",
+        techno: "React.js / TailWindCSS",
+        link: "https://travel-react-tailwindcss.vercel.app/",
+        github: "https://github.com/Laurene45/travel-react-tailwindcss",
+    },
+    {
         projet: 13,
         img: "https://github.com/Laurene45/LaureneCourde_13_29062022/blob/main/bankapi/documentation/bankapi.png?raw=true",
         title: "ARGENT BANK",
@@ -306,18 +326,8 @@ const dataportfolio = [
         github: "https://github.com/Laurene45/LaureneCourde_14_31082022",
     },
     {
-        projet: 15,
-        img: "https://github.com/Laurene45/travel-react-tailwindcss/blob/main/img_website/React-App-travel-website.png?raw=truee",
-        title: "BEACHES TRAVEL",
-        type : "Application",
-        description: "Voyages",
-        techno: "React.js / TailWindCSS",
-        link: "https://travel-react-tailwindcss.vercel.app/",
-        github: "https://github.com/Laurene45/travel-react-tailwindcss",
-    },
-    {
         projet: 16,
-        img: "https://github.com/Laurene45/app_movies/blob/main/src/assets/React-App.png?raw=true",
+        img: "https://github.com/Laurene45/app_movies/blob/main/src/assets/app-movie.png?raw=true",
         title: "APP Movies",
         type : "Application",
         description: "Movies & series",
@@ -335,8 +345,9 @@ const dataportfolio = [
         link: "https://sunnyside-amber.vercel.app/",
         github: "https://github.com/Laurene45/Sunnyside",
     },
+
     {
-        projet: 18,
+        projet: 19,
         img: "",
         title: "",
         type : "",
