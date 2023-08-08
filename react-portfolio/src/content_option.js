@@ -255,7 +255,7 @@ const dataportfolio = [
     // },
     {
         projet: 10,
-        img: "https://github.com/Laurene45/LaureneCourde_10_22122021/blob/main/documentation/Appli-soutien-scolaire-DESKTOP-%E2%80%93-Figma%20(2).png?raw=true",
+        img: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/images_projets/conception_app_soutien_scolaire.jpg?raw=true",
         title: "LEARN@HOME",
         type : "Conception",
         description: "Application de soutien scolaire",
