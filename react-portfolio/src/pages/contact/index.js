@@ -93,8 +93,8 @@ export const ContactUs = () => {
               <p className="my-0">{formData.alertmessage}</p>
             </Alert>
           </Col>
-          <Col lg="5" className="mb-5">
-            <h3 className="color_sec py-4">Un projet ? Discutons ensemble</h3>
+          <Col lg="5" className="mb-5 fade-in-left">
+            <h3 className="color_sec py-4">Un projet ? Discutons en ensemble</h3>
             <p>Vous pouvez dès maintenant m’envoyer un message grâce à ce formulaire de contact.</p>
             <br />
             <p>Si celui-ci ne fonctionne pas, vous pouvez me contacter via mon email.</p>

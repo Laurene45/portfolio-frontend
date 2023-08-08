@@ -7,7 +7,7 @@ const meta = {
 
 // Intro
 const introdata = {
-    title: "Laurène COURDE.",
+    title: "Laurène COURDE",
     job: "Développeur Front-end",
     animated: {
         // first: "Création & Développement",
@@ -25,158 +25,158 @@ const introdata = {
     //subtitle: "Front-end : ",
     //resume: " Front-end : Partie du code reçue par votre navigateur web. Ce sont les éléments intéractifs ou non du site web que vous apercevez sur votre écran. Ils sont composés de 3 langages: Html, Css et Javascript.",
     //subtitle2: "Ma Mission: ",
-    description: " Ma mission : développer vos projets web, quelles que soient leurs dimensions : d'une landing page, d'un site web à une application web. J’ai une aspiration certaine pour l'innovation et le partage d'une vision commune autour d'un projet à l'aide de méthodes et outils adaptés.",
+    //description: " Ma mission : développer vos projets web, quelles que soient leurs dimensions : d'une landing page, d'un site web à une application web. J’ai une aspiration certaine pour l'innovation et le partage d'une vision commune autour d'un projet à l'aide de méthodes et outils adaptés.",
     //your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
-    information: "Venez découvrir mon profil et consulter mes projets.",
+    description : "Développeur freelance, je peux vous accompagner sur différents types de projets web, quelles que soient leurs dimensions : d'une landing page, d'un site web à une application web.",
+    information: "Mes compétences digitales me permettent d’être présente à vos côtés de la genèse de votre projet jusqu’à la fin de celui-ci.",
+    information2: "Une idée ? Un projet ? "
 };
 
 //Qui suis-je?
 const dataabout = {
-    title: "MaLoWeb",
-    aboutme: "Laurène, passionnée du web et de l'image, j'aime affiner et améliorer les idées pour les rendre accessibles à chacun. Agile et curieuse, j'utilise toute une palette de compétences techniques et créatives pour réaliser des sites web responsives ou des applications métiers, quels que soient leurs supports numériques.",
+    title: "MALOWEB",
+    aboutme: "MALOWEB, qui est-ce ? Laurène, passionnée du web et de l'image.",
+    aboutme1:"J'aime affiner et améliorer les idées pour les rendre accessibles à chacun. Agile et curieuse, j'utilise toute une palette de compétences techniques et créatives pour réaliser des sites web responsives ou des applications métiers, quels que soient leurs supports numériques.",
     aboutme2: "Concrètement, je développe des projets web tenant compte de l'expérience des utilisateurs en mêlant graphisme, ergonomie dans une interface qui leur rendra la vie plus belle ! J'adhère aux échanges constructifs pour partager une vision commune autour d'un projet à l'aide de méthodes et outils créatifs.",
-    aboutme3: "Le reste du temps, l'image culturelle, l'art, les livres fantastiques et la lithothérapie font partie de ma vie ... la magie, le rêve et l'imaginaire aussi! Et quand il faut changer d'air : sauter dans un train, voyager, vibrer... ou tout simplement se libérer. ",
+
 };  
 const worktimeline = [{
-        jobtitle: " Formation Développeur d’applications Front-End Js / React.Js",
+        jobtitle: " Formation Développeur d’applications front-end Js / React.Js",
         where: "Openclassrooms Paris (75)",
-        date: "2021/2022",
+        //date: "2021/2022",
     },
     {
-        jobtitle: "Formation Webdesigner",
+        jobtitle: "Formation Webdesigner + stage",
         where: "Nextformation Paris (75)",
-        date: "2019/2020",
+        //date: "2019/2020",
     },
     {
         jobtitle: "BTS Force de vente",
         where: "Lycée Montargis(45)",
-        date: "2003/2005",
+        //date: "2003/2005",
     },
 ];
 
 const skills = [{
 
-        category: "Dev:",
         name:"Html5",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/html.png?raw=true",
         // value: 18,
     },
     {
-        category: "Dev:",
         name:"Css3",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/css.png?raw=true",
         // value: 18,
     },
     {
-        category: "Dev:",
         name:"Javascript",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/javascript.png?raw=true",
         // value: 18,
     },
     {
-        category: "Dev:",
         name:"Sass",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/sass.png?raw=true",
         // value: 18,
     },
     {
-        category: "Dev:",
         name:"Bootstrap",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/bootstrap.png?raw=true",
         // value: 18,
     },
     {
-        category: "Dev:",
         name:"React.js",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/react.png?raw=true",
         // value: 18,
     },
     {
-        category: "Dev:",
         name:"Redux",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/redux.png?raw=true",
         // value: 18,
     },
     {
-        category: "Dev:",
         name:"Vite.js",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/vite-js.png?raw=true",
         // value: 18,
     },
     {
-        category: "Dev:",
         name:"Rollup",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/rollup.png?raw=true",
         // value: 18,
     },
     {
-        category: "Dev:",
         name:"Storybook",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/storybook.png?raw=true",
         // value: 18,
     },
     {
-        category: "Dev:",
         name:"Npm",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/npm.png?raw=true",
         // value: 18,
     },
     {
-        category: "Dev:",
         name:"Github",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/github.png?raw=true",
         // value: 18,
     },
     {
-        category: "CMS:",
         name:"Wordpress",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/wordpress.png?raw=true",
         // value: 18,
     },
     {
-        category: "Conception :",
         name:"Figma",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/figma.png?raw=true",
         // value: 18,
     },
     {
-        category: "Conception :",
         name:"Adobe",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/adobe.png?raw=true",
         // value: 18,
     },
     {
-        
-        category: "Gestion de projet :",
         name:"Notion",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/notion.png?raw=true",
         // value: 18,
     },
     {
-        category: "Gestion de projet :",
         name:"Trello",
         image: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/pictogrammes/trello.png?raw=true",
         // value: 18,
     },
 ];
 
-const services = [{
-        title: "Développement Front-end",
-        description: "Conception et réalisation au cœur du fonctionnement de votre application / site web.",
+const competences = [{
+        title: " 1 - Parcours professionnel et formation",
+        description: "Ancienne responsable d'un service client, au sein d'une direction des services informatiques, je me suis reconvertie en tant que Webdesigner puis Développeur front-end. j’ai pu acquérir par mes formations des compétences assez diverses dans le domaine du web.",
     },
     {
-        title: "UI & UX Design",
-        description: "Un produit réussi est celui, au visuel agréable, qui correspond le mieux aux besoins et ressentis des utilisateurs.",
+        title: "2 - Expérience",
+        description: "J’ai acquis une expérience via divers projets. Cela me permet de pouvoir vous accompagner et d'utiliser mon panel de compétences.",
     },
     {
-        title: "Gestion de projet - Méthode Agile",
-        description: "Les changements doivent être considérés comme des opportunités plutôt que des obstacles. De nouvelles idées pour apporter des fonctionnalités. Le partage reste la clé.",
+        title: "3 - Préférence",
+        description: "Conception, expérience UI et UX, projets, création web, accompagnement ont été des éléments déclencheurs. Freelance englobe une profession entreprenariale à part entière. ",
     },
-    {
-        title: "Refonte de site Web",
-        description: "Un goût de renouveau ! Une nouvelle technologie de développement web pour optimiser votre application / site web.",
-    },
+
 ];
+
+// const services = [{
+//     title: "Développement Front-end",
+//     description: "Conception et réalisation au cœur du fonctionnement de votre application / site web.",
+// },
+// {
+//     title: "UI & UX Design",
+//     description: "Un produit réussi est celui, au visuel agréable, qui correspond le mieux aux besoins et ressentis des utilisateurs.",
+// },
+// {
+//     title: "Gestion de projet - Méthode Agile",
+//     description: "Les changements doivent être considérés comme des opportunités plutôt que des obstacles. De nouvelles idées pour apporter des fonctionnalités. Le partage reste la clé.",
+// },
+// {
+//     title: "Refonte de site Web",
+//     description: "Un goût de renouveau ! Une nouvelle technologie de développement web pour optimiser votre application / site web.",
+// },
+// ];
 
 // en colonne - 16 projets
 const dataportfolio = [
@@ -242,17 +242,17 @@ const dataportfolio = [
         github: "https://github.com/Laurene45/photosnap",
     },
     //p8 : Test
-    {
-        projet: 9,
-        img: "https://github.com/Laurene45/Billed-app-FR-Front/blob/main/documentation/billed.JPG?raw=true",
-        title: "BILLED",
-        type : "Saas RH",
-        description: "Tests unitaires, intégration, plan E2E",
-        techno: "Html / Css / Js - Jest",
-        link: "https://github.com/Laurene45/Billed-app-FR-Front/blob/main/documentation/billed.png?raw=true",
-        github: "https://github.com/Laurene45/Billed-app-FR-Front",
-        other: "Api back-end - accès image uniquement",
-    },
+    // {
+    //     projet: 9,
+    //     img: "https://github.com/Laurene45/Billed-app-FR-Front/blob/main/documentation/billed.JPG?raw=true",
+    //     title: "BILLED",
+    //     type : "Saas RH",
+    //     description: "Tests unitaires, intégration, plan E2E",
+    //     techno: "Html / Css / Js - Jest",
+    //     link: "https://github.com/Laurene45/Billed-app-FR-Front/blob/main/documentation/billed.png?raw=true",
+    //     github: "https://github.com/Laurene45/Billed-app-FR-Front",
+    //     other: "Api back-end - accès image uniquement",
+    // },
     {
         projet: 10,
         img: "https://github.com/Laurene45/LaureneCourde_10_22122021/blob/main/documentation/Appli-soutien-scolaire-DESKTOP-%E2%80%93-Figma%20(2).png?raw=true",
@@ -380,7 +380,7 @@ export {
     dataportfolio,
     worktimeline,
     skills,
-    services,
+    competences,
     introdata,
     contactConfig,
     socialprofils,

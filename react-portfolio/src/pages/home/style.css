@@ -97,7 +97,8 @@ section {
 .intro_sec .h_bg-image {
     background-size: cover;
     background-position: center;
-    min-height: 1200px;
+    height: 1200px;
+    min-height: 75vh;
     position: relative;
         -webkit-animation:img-appearance;
                 animation:img-appearance; /*animation: img-appearance;*/
@@ -225,10 +226,10 @@ section {
     justify-content: center;
 }
 
-@media (max-width:1400px) {
+@media (min-width:992px) {
     .intro_sec .h_bg-image {
-        height: 900px;
-        min-height: 75vh;
+        /* Height: 900px;
+        min-height: 75vh; */
         margin-bottom: 30px;
         margin-top:30px;
     }

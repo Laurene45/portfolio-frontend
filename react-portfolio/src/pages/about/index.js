@@ -6,8 +6,8 @@ import {
   dataabout,
   meta,
   worktimeline,
-  skills,
-  services,
+  //skills,
+  competences,
 } from "../../content_option";
 //import CV from "../../assets/pdf/CV.pdf";
 //import ImgCv from"../../assets/images/picto_cv.png";
@@ -32,13 +32,13 @@ export const About = () => {
         <Row className="sec_sp fade-in-left">
           <Col lg="5">
             <h3 className="color_sec py-4"> {dataabout.title}</h3>
-            <img className="mon_image" src={moi} alt="photo_de_moi" />
+            <img className="mon_image scale-up-center" src={moi} alt="photo_de_moi" />
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
               <p>{dataabout.aboutme}</p>
+              <p>{dataabout.aboutme1}</p>
               <p>{dataabout.aboutme2}</p>
-              <p>{dataabout.aboutme3}</p>
               {/* {/* <a href={CV}> 
                 <img src={ImgCv} alt="" style={{ "width":"40px" , "marginRight" : "5px"  , "marginLeft" : "10px"}}/>
               CV
@@ -58,7 +58,7 @@ export const About = () => {
                     <tr key={i}>
                       <th scope="row">{data.jobtitle}</th>
                       <td>{data.where}</td>
-                      <td>{data.date}</td>
+                      {/* <td>{data.date}</td> */}
                     </tr>
                   );
                 })}
@@ -66,7 +66,7 @@ export const About = () => {
             </table>
           </Col>
         </Row>
-        <Row className="sec_sp fade-in-left">
+        {/* <Row className="sec_sp fade-in-left">
           <Col lg="5">
             <h3 className="color_sec py-4">Compétences</h3>
           </Col>
@@ -76,7 +76,6 @@ export const About = () => {
             return (
               <div className="box_image_taille" key={i}>
                   <img className="img_icon" src={data.image} alt="icon" style={{ "width":"30px"}}></img>
-                  <h4 className="progress-title">{data.category}</h4>
                   <h4 className="progress-title">{data.name}</h4>
                   {/* <div className="progress">
                     <div
@@ -87,19 +86,19 @@ export const About = () => {
                     >
                       {/* <div className="progress-value">{data.value}%</div> }
                     </div> 
-                  </div>*/}
+                  </div>
                 </div>
               );
             })}
             </div> 
           </Col>
-        </Row>
-        <Row className="sec_sp fade-in-right ">
+        </Row> */}
+        <Row className="sec_sp fade-in-left">
           <Col lang="5">
-            <h3 className="color_sec py-4">Services</h3>
+            <h3 className="color_sec py-4">Compétences</h3>
           </Col>
           <Col lg="7">
-            {services.map((data, i) => {
+            {competences.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
                   <h5 className="service__title">{data.title}</h5>

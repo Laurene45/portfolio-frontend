@@ -60,3 +60,34 @@ button.btn.ac_btn:hover {
         transform: translateX(100%);
     }
 }
+
+
+
+/*Animation on h3*/
+
+.fade-in-left {
+	-webkit-animation: fade-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
+	        animation: fade-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
+}
+
+
+ @-webkit-keyframes fade-in-left {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-left {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
