@@ -2,9 +2,6 @@
 
 A portfolio for frontend developer with React.js.
 
-![react portfolio](https://github.com/Laurene45/portfolio-frontend/blob/main/maquette_figma/%E2%96%B6-PORTFOLIO-PORTFOLIO-DEV-FRONT.png?raw=true)
-
-
 ### Prerequisites
 
  - [Recommended IDE (Visual Studio
@@ -42,4 +39,4 @@ A portfolio for frontend developer with React.js.
   
 ### Author
 
-MaLow (Laurene45)
+MaLow
