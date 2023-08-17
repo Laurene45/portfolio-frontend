@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import { logotext , socialprofils } from "../content_option";
+import { socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
+import CookieConsent from "react-cookie-consent";
+import logo from "../assets/images/logos/logo_black_petit_format.JPG";
+//import logo2 from "../assets/images/logos/logo_white_petit_format.JPG";
 
 
 const Headermain = () => {
@@ -12,21 +15,28 @@ const Headermain = () => {
   const handleToggle = () => {
     setActive(!isActive);
     document.body.classList.toggle("ovhidden");
+    
   };
+
+
 
   return (
     <>
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
-          <Link  className="navbar-brand nav_ac" to="/">
+          {/* <Link  className="navbar-brand nav_ac" to="/">
             {logotext}
+          </Link> */}
+          
+          <Link className="navbar-brand nav_ac" to="/" onClick={handleToggle} >
+            <img className="mon_logo" src={logo} alt="logo original"  /> 
           </Link>
+
           <div className="d-flex align-items-center">
           <Themetoggle />
-          <button className="menu__button  nav_ac2" onClick={handleToggle}>
-            {!isActive ? <VscClose /> : <VscGrabber />}
-          </button>
-          
+            <button className="menu__button nav_ac2" onClick={handleToggle}>
+              {!isActive ? <VscClose /> : <VscGrabber />}
+            </button>
           </div>
         </div>
 
@@ -57,9 +67,9 @@ const Headermain = () => {
               <a href={socialprofils.linkedin}> Linkedin </a>
             </div>
             <div className="d-flex"></div>
-              <a href="/mentions_legales"> Mentions légales </a>
+              <a href="/mentions_legales"> CGU & Politique de confidentialité </a>
               <a href="/plan_site"> Plan du site </a>
-              <p className="copyright m-0">© Copyright 2023 __ {logotext}</p>
+              <p className="copyright m-0">© Copyright 2023 __ {}</p>
             </div>
         </div>
       </header>
@@ -67,7 +77,16 @@ const Headermain = () => {
       <div className="br-bottom"></div>
       <div className="br-left"></div>
       <div className="br-right"></div>
-      
+
+      <CookieConsent 
+        debug={true}
+        location="bottom"
+        buttonText="OK"
+        style={{ background: "#2B373B" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+        expires={365}
+      >
+        Ce site web utilise les cookies. Pour plus d'informations, voir les <a href='/mentions_legales'> CGU et politique de confidentialité</a></CookieConsent>
     </>
   );
 };

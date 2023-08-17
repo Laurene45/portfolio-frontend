@@ -35,7 +35,7 @@ export const Plan = () => {
                 <a href="/contacts"> Contacts </a>
               </p>
               <p>
-                <a href="/mentions_legales"> Mentions légales </a>
+                <a href="/mentions_legales"> CGU & Politique de confidentialité </a>
               </p>
               <p>
                 <a href="/plan_site"> Plan du site </a>

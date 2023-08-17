@@ -7,10 +7,9 @@
     --text-color: #fff;
     --text-color-2: #fff;
     --text-color-3: rgb(204, 0, 0);
-
     --overlay-color: rgb(12 12 12 / 63%);
-    --bg-image : url(assets/images/nebula.jpg);
-    
+    --bg-image : url(assets/images/fonds/nebula.jpg);
+    --logo : url(assets/images/logos/logo_black_petit_format.JPG);
 }
 
 
@@ -24,7 +23,7 @@
     --text-color-3: rgb(204, 0, 0);
     --overlay-color: rgba(192, 192, 192, 0.812);
     --bg-image : none;
-    
+    --logo2 : url(assets/images/logos/logo_white_petit_format.JPG);
 }
 
 html,
@@ -46,7 +45,8 @@ body {
     padding-top: 60px;
     /*border-left: 10px solid var(--primary-color);
     border-right: 10px solid var(--primary-color);*/
-}
+}   
+
 
 ul {
     list-style: none;

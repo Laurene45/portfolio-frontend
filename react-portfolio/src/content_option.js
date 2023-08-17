@@ -34,8 +34,8 @@ const introdata = {
 
 //Qui suis-je?
 const dataabout = {
-    title: "MALOWEB",
-    aboutme: "MALOWEB, qui est-ce ? Laurène, passionnée du web et de l'image.",
+    title: "MaLoWeb",
+    aboutme: "MaLoWeb, qui est-ce ? Laurène, passionnée du web et de l'image.",
     aboutme1:"J'aime affiner et améliorer les idées pour les rendre accessibles à chacun. Agile et curieuse, j'utilise toute une palette de compétences techniques et créatives pour réaliser des sites web responsives ou des applications métiers, quels que soient leurs supports numériques.",
     aboutme2: "Concrètement, je développe des projets web tenant compte de l'expérience des utilisateurs en mêlant graphisme, ergonomie dans une interface qui leur rendra la vie plus belle ! J'adhère aux échanges constructifs pour partager une vision commune autour d'un projet à l'aide de méthodes et outils créatifs.",
 

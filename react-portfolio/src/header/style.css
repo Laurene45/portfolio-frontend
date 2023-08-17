@@ -33,6 +33,7 @@
     height: 50px;
     font-weight: bold;
     z-index: 1000;
+ 
 }
 
 .nav_ac2 {
@@ -48,6 +49,7 @@
     height: 50px;
     font-weight: bold;
     z-index: 1000;
+
 }
 
 .nav_ac:hover {
@@ -206,9 +208,21 @@
     color: var(--text-color-3);
 }
 
+.mon_logo {
+    background: var(--logo) no-repeat;
+}
+
+.mon_logo[data-theme="light"]{
+    background: var(--logo2) no-repeat;
+}
+
 @media (min-width: 768px) {
     .the_menu .menu_item>a {
         font-size: 4.8vw;
+    }
+    .mon_logo {
+        width: 18%;
+        margin-top: -5px;
     }
 }
 
@@ -223,4 +237,26 @@
     color: var(--text-color-2);
     margin-right: 10px;
     text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .mon_logo {
+        width: 20%;
+        margin-top: -5px;
+    }
+}
+
+@media (max-width:575px) {
+    .mon_logo {
+        width: 28%;
+        margin-top: -5px;
+    }
+}
+
+@media (max-width:425px) {
+    .mon_logo {
+        
+        width: 35%;
+        margin-top: -5px;
+    }
 }

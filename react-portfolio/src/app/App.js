@@ -11,6 +11,7 @@ import AnimatedCursor  from "../hooks/AnimatedCursor";
 import "./App.css";
 
 
+
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
   useEffect(() => {
