@@ -208,13 +208,6 @@
     color: var(--text-color-3);
 }
 
-.mon_logo {
-    background: var(--logo) no-repeat;
-}
-
-.mon_logo[data-theme="light"]{
-    background: var(--logo2) no-repeat;
-}
 
 @media (min-width: 768px) {
     .the_menu .menu_item>a {
@@ -224,6 +217,7 @@
         width: 18%;
         margin-top: -5px;
     }
+
 }
 
 .menu_footer {
@@ -255,7 +249,6 @@
 
 @media (max-width:425px) {
     .mon_logo {
-        
         width: 35%;
         margin-top: -5px;
     }

@@ -6,7 +6,7 @@ import { socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
 import CookieConsent from "react-cookie-consent";
 import logo from "../assets/images/logos/logo_black_petit_format.JPG";
-//import logo2 from "../assets/images/logos/logo_white_petit_format.JPG";
+import CGV from "../assets/pdf/CGV_2023.pdf";
 
 
 const Headermain = () => {
@@ -17,8 +17,7 @@ const Headermain = () => {
     document.body.classList.toggle("ovhidden");
     
   };
-
-
+  
 
   return (
     <>
@@ -28,7 +27,7 @@ const Headermain = () => {
             {logotext}
           </Link> */}
           
-          <Link className="navbar-brand nav_ac" to="/" onClick={handleToggle} >
+          <Link className="navbar-brand nav_ac" to="/" >
             <img className="mon_logo" src={logo} alt="logo original"  /> 
           </Link>
 
@@ -68,8 +67,9 @@ const Headermain = () => {
             </div>
             <div className="d-flex"></div>
               <a href="/mentions_legales"> CGU & Politique de confidentialité </a>
+              <a href={CGV}> CGV </a>
               <a href="/plan_site"> Plan du site </a>
-              <p className="copyright m-0">© Copyright 2023 __ {}</p>
+              <p className="copyright m-0">© Copyright 2023 __ MaLoWeb</p>
             </div>
         </div>
       </header>

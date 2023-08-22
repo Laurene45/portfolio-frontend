@@ -108,7 +108,7 @@ export const ContactUs = () => {
               
             </address>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
+          <Col lg="7" className="d-flex align-items-center fade-in-right">
             <form onSubmit={handleSubmit} className="contact__form w-100">
               <Row>
                 <Col lg="6" className="form-group">
@@ -116,7 +116,7 @@ export const ContactUs = () => {
                     className="form-control"
                     id="name"
                     name="name"
-                    placeholder="Name"
+                    placeholder="Nom"
                     value={formData.name || ""}
                     type="text"
                     required

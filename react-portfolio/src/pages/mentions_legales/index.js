@@ -33,7 +33,7 @@ export const Mentions = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>Freelance :  auto-entreprise </p>
+              <p>Freelance</p>
             </div>
           </Col>
         </Row>
