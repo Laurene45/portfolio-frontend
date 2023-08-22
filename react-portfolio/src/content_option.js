@@ -365,7 +365,7 @@ const contactConfig = {
     description: "Vous pouvez également me contacter via ce formulaire.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_rl93mq3",
+    YOUR_SERVICE_ID: "service_r2gyo1n",
     YOUR_TEMPLATE_ID: "template_rkatazh",
     YOUR_USER_ID: "o1cfnGT3RhvOQhv7c",
 };
