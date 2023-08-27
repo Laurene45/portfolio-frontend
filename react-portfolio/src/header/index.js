@@ -4,10 +4,9 @@ import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
-import CookieConsent from "react-cookie-consent";
 import logo from "../assets/images/logos/logo_black_petit_format.JPG";
 import CGV from "../assets/pdf/CGV_2023.pdf";
-
+import { useEffect } from "react";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
@@ -16,6 +15,27 @@ const Headermain = () => {
     setActive(!isActive);
     document.body.classList.toggle("ovhidden");
     
+  };
+
+  const AxeptioIntegration = () => {
+    useEffect(() => {
+      if (!window.axeptioSettings) {
+        window.axeptioSettings = {
+          clientId: "64e3391ac265b5883b4ff716",
+          
+        };
+  
+        (function (d, s) {
+          var t = d.getElementsByTagName(s)[0],
+            e = d.createElement(s);
+          e.async = true;
+          e.src = "//static.axept.io/sdk-slim.js";
+          t.parentNode.insertBefore(e, t);
+        })(document, "script");
+      }
+    }, []);
+  
+    return null;
   };
   
 
@@ -78,16 +98,9 @@ const Headermain = () => {
       <div className="br-left"></div>
       <div className="br-right"></div>
 
-      <CookieConsent 
-        debug={true}
-        location="bottom"
-        buttonText="OK"
-        style={{ background: "#2B373B" }}
-        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
-        expires={365}
-      >
-        Ce site web utilise les cookies. Pour plus d'informations, voir les <a href='/mentions_legales'> CGU et politique de confidentialité</a></CookieConsent>
-    </>
+      <AxeptioIntegration/>
+
+    </> 
   );
 };
 
