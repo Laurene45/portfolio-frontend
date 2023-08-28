@@ -214,8 +214,8 @@
         font-size: 4.8vw;
     }
     .mon_logo {
-        width: 27%;
-        margin-top: -5px;
+        width: 160px;
+        margin-top: -6px;
     }
 
 }
@@ -235,15 +235,15 @@
 
 @media (max-width:767px) {
     .mon_logo {
-        width: 37%;
-        margin-top: -5px;
+        width: 165px;
+        margin-top: -6px;
     }
 }
 
 @media (max-width:575px) {
     .mon_logo {
-        width: 47%;
-        margin-top: -5px;
+        width: 165px;
+        margin-top: -6px;
     }
 }
 

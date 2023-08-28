@@ -1,7 +1,7 @@
 const logotext = "MaLoWeb";
 // Onglet Portfolio
 const meta = {
-    title: "Laurène C.",
+    title: "MaLoWeb",
     description: "Développeur front-end",
 };
 
