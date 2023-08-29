@@ -2,20 +2,20 @@ const logotext = "MaLoWeb";
 // Onglet Portfolio
 const meta = {
     title: "MaLoWeb",
-    description: "Développeur front-end",
+    description: "Développeur front end",
 };
 
 // Intro
 const introdata = {
-    title: "Laurène COURDE",
-    job: "Développeur Front-end",
+    title: "Laurène C.",
+    job: "Développeur front end",
     animated: {
         // first: "Création & Développement",
         // second: "Applications & Sites Web",
         // third: "Front-end & React.js",
         // four: "Webdesign",
 
-        first: "Développeur Front-end",
+        first: "Développeur front end",
         second:"React.js",
         third: "Applications & Sites Web",
         four : "Conception, Développement & Gestion de projets",
@@ -27,7 +27,7 @@ const introdata = {
     //subtitle2: "Ma Mission: ",
     //description: " Ma mission : développer vos projets web, quelles que soient leurs dimensions : d'une landing page, d'un site web à une application web. J’ai une aspiration certaine pour l'innovation et le partage d'une vision commune autour d'un projet à l'aide de méthodes et outils adaptés.",
     //your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
-    description : "Développeur freelance, je peux vous accompagner sur différents types de projets web, quelles que soient leurs dimensions : d'une landing page, d'un site web à une application web.",
+    description : "Développeur front end, je peux vous accompagner sur différents types de projets web, quelles que soient leurs dimensions : d'une landing page, d'un site web à une application web.",
     information: "Mes compétences digitales me permettent d’être présente à vos côtés de la genèse de votre projet jusqu’à la fin de celui-ci.",
     information2: "Une idée ? Un projet ? "
 };
@@ -35,13 +35,13 @@ const introdata = {
 //Qui suis-je?
 const dataabout = {
     title: "MaLoWeb",
-    aboutme: "MaLoWeb, qui est-ce ? Laurène, passionnée du web et de l'image.",
+    aboutme: "MaLoWeb, qui est-ce ? Laurène COURDE, passionnée du web et de l'image.",
     aboutme1:"J'aime affiner et améliorer les idées pour les rendre accessibles à chacun. Agile et curieuse, j'utilise toute une palette de compétences techniques et créatives pour réaliser des sites web responsives ou des applications métiers, quels que soient leurs supports numériques.",
     aboutme2: "Concrètement, je développe des projets web tenant compte de l'expérience des utilisateurs en mêlant graphisme, ergonomie dans une interface qui leur rendra la vie plus belle ! J'adhère aux échanges constructifs pour partager une vision commune autour d'un projet à l'aide de méthodes et outils créatifs.",
 
 };  
 const worktimeline = [{
-        jobtitle: " Formation Développeur d’applications front-end Js / React.Js",
+        jobtitle: " Formation Développeur d’applications front  end Js / React.Js",
         where: "Openclassrooms Paris (75)",
         //date: "2021/2022",
     },
@@ -146,7 +146,7 @@ const skills = [{
 ];
 
 const competences = [{
-        title: " 1 - Parcours professionnel et formation",
+        title: "1 - Parcours professionnel et formation",
         description: "Ancienne responsable d'un service client, au sein d'une direction des services informatiques, je me suis reconvertie en tant que Webdesigner puis Développeur front-end. j’ai pu acquérir par mes formations des compétences assez diverses dans le domaine du web.",
     },
     {
