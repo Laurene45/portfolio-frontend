@@ -7,6 +7,7 @@
     --text-color: #fff;
     --text-color-2: #fff;
     --text-color-3: rgb(204, 0, 0);
+    --text-color-4: #ffc823;
     --overlay-color: rgb(12 12 12 / 63%);
     --bg-image : url(assets/images/fonds/nebula.jpg);
 }
@@ -20,6 +21,7 @@
     --text-color: #000;
     --text-color-2: #000;
     --text-color-3: rgb(204, 0, 0);
+    --text-color-4: #ffc823;
     --overlay-color: rgba(192, 192, 192, 0.812);
     --bg-image : none;
 }

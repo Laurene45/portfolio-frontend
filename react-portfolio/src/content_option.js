@@ -7,7 +7,7 @@ const meta = {
 
 // Intro
 const introdata = {
-    title: "Laurène C.",
+    title: "Laurène Courde",
     job: "Développeur front end",
     animated: {
         // first: "Création & Développement",

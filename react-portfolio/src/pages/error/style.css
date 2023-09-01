@@ -1,0 +1,42 @@
+.sec_sp {
+    margin-bottom: calc(3rem + 5.128vw)
+}
+
+.table td,
+.table th {
+    color: var(--text-color);
+}
+
+.t_border {
+    border-color: var(--text-color) !important;
+}
+
+.text_lien {
+    color: var(--text-color-4);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.text_erreur{
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.image_erreur{
+    width: 300px; 
+    border-radius: 10px;
+}
+
+.image {
+    position: relative;
+    margin-top: 65px;
+}
+
+@media (max-width:768px){
+    .image {
+        position: relative;
+        margin-top: 45px;
+        
+    }
+}
