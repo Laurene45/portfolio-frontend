@@ -47,7 +47,7 @@ const Headermain = () => {
             {logotext}
           </Link> */}
           
-          <Link className="navbar-brand nav_ac" to="/" >
+          <Link className="navbar-brand nav_ac" to="/index.html" >
             <img className="mon_logo" src={logo} alt="logo original"  /> 
           </Link>
 
@@ -65,7 +65,7 @@ const Headermain = () => {
               <div className="menu__container p-3">
                 <ul className="the_menu">
                   <li className="menu_item ">
-                  <Link  onClick={handleToggle} to="/" className="my-3">Accueil </Link>
+                  <Link  onClick={handleToggle} to="/index.html" className="my-3">Accueil </Link>
                   </li>
                   <li className="menu_item">
                     <Link  onClick={handleToggle} to="/projets" className="my-3">Projets </Link>

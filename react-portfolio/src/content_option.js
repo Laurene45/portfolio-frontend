@@ -16,10 +16,9 @@ const introdata = {
         // four: "Webdesign",
 
         first: "Développeur front-end",
-        second:"React.js",
-        third: "Applications & Sites Web",
-        four : "Conception, Développement & Gestion de projets",
-        //five : "WebDesign" "Conception, Développement & Gestion de projets"
+        second:"Conception d'interfaces web, Développement & Gestion de projets",
+        third: "React",
+        four : "WebDesign & CMS",
       
     },
     //subtitle: "Front-end : ",
@@ -37,8 +36,9 @@ const dataabout = {
     title: "MaLoWeb",
     aboutme: "MaLoWeb, qui est-ce ? Laurène COURDE, passionnée du web et de l'image.",
     aboutme1:"J'aime affiner et améliorer les idées pour les rendre accessibles à chacun. Agile et curieuse, j'utilise toute une palette de compétences techniques et créatives pour réaliser des sites web responsives ou des applications métiers, quels que soient leurs supports numériques.",
-    aboutme2: "Concrètement, je développe des projets web tenant compte de l'expérience des utilisateurs en mêlant graphisme, ergonomie dans une interface qui leur rendra la vie plus belle ! J'adhère aux échanges constructifs pour partager une vision commune autour d'un projet à l'aide de méthodes et outils créatifs.",
-
+    aboutme2: "Les technologies utilisées sont Html, Css, Javascript, React.js... mais je peux adapter votre idée en utilisant un CMS Wordpress.",
+    aboutme3: "Concrètement, je développe des projets web en tenant compte de l'expérience des utilisateurs et en mêlant graphisme, ergonomie dans une interface qui leur rendra la vie plus belle ! ",
+    aboutme4: "J'adhère aux échanges constructifs pour partager une vision commune autour d'un projet à l'aide de méthodes et outils créatifs.",
 };  
 const worktimeline = [{
         jobtitle: " Formation Développeur d’applications front-end Js / React.Js",

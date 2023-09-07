@@ -39,6 +39,8 @@ export const About = () => {
               <p>{dataabout.aboutme}</p>
               <p>{dataabout.aboutme1}</p>
               <p>{dataabout.aboutme2}</p>
+              <p>{dataabout.aboutme3}</p>
+              <p>{dataabout.aboutme4}</p>
               {/* {/* <a href={CV}> 
                 <img src={ImgCv} alt="" style={{ "width":"40px" , "marginRight" : "5px"  , "marginLeft" : "10px"}}/>
               CV

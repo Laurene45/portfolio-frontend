@@ -32,7 +32,7 @@ export const Error = () => {
             </div>
 
             <div className="d-flex justify-content-center align-items-center">
-              <Link className="text_lien" to="/">Retourner sur la page d&lsquo;accueil</Link>
+              <Link className="text_lien" to="/index.html">Retourner sur la page d&lsquo;accueil</Link>
             </div>
 
             <div className="image d-flex justify-content-center align-items-center ">
