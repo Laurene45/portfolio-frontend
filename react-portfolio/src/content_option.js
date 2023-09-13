@@ -13,12 +13,12 @@ const introdata = {
         // first: "Création & Développement",
         // second: "Applications & Sites Web",
         // third: "Front-end & React.js",
-        // four: "Webdesign",
+        // four: "Webdesign et cms",
 
         first: "Développeur front-end",
         second:"Conception d'interfaces web, Développement & Gestion de projets",
         third: "React",
-        four : "WebDesign & CMS",
+        four : "WebDesign",
       
     },
     //subtitle: "Front-end : ",
@@ -35,9 +35,9 @@ const introdata = {
 const dataabout = {
     title: "MaLoWeb",
     aboutme: "MaLoWeb, qui est-ce ? Laurène COURDE, passionnée du web et de l'image.",
-    aboutme1:"J'aime affiner et améliorer les idées pour les rendre accessibles à chacun. Agile et curieuse, j'utilise toute une palette de compétences techniques et créatives pour réaliser des sites web responsives ou des applications métiers, quels que soient leurs supports numériques.",
-    aboutme2: "Les technologies utilisées sont Html, Css, Javascript, React.js... mais je peux adapter votre idée en utilisant un CMS Wordpress.",
-    aboutme3: "Concrètement, je développe des projets web en tenant compte de l'expérience des utilisateurs et en mêlant graphisme, ergonomie dans une interface qui leur rendra la vie plus belle ! ",
+    aboutme1: "J'aime affiner et améliorer les idées pour les rendre accessibles à chacun. Agile et curieuse, j'utilise toute une palette de compétences techniques et créatives pour réaliser des sites web responsives ou des applications métiers, quels que soient leurs supports numériques.",
+    aboutme2: "Les technologies utilisées sont Html, Css, Javascript, React.js... Il est également possible d'adapter votre idée en utilisant un CMS Wordpress.",
+    aboutme3: "Concrètement, je développe des projets web en tenant compte de l'expérience des utilisateurs et en mêlant design, ergonomie dans une interface qui leur rendra la vie plus belle ! ",
     aboutme4: "J'adhère aux échanges constructifs pour partager une vision commune autour d'un projet à l'aide de méthodes et outils créatifs.",
 };  
 const worktimeline = [{
