@@ -180,6 +180,7 @@ const competences = [{
 
 // en colonne - 16 projets
 const dataportfolio = [
+    // Projet HTML/CSS
     // {
     //     projet: 2,
     //     img: "https://github.com/Laurene45/LaureneCourde_2_24032021/blob/main/Documentation/Reservia.png?raw=true",
@@ -200,6 +201,7 @@ const dataportfolio = [
         link: "https://laurene45.github.io/LaureneCourde_3_19042021/",
         github: "https://github.com/Laurene45/LaureneCourde_3_19042021",
     },
+    // PROJETS HTML CSS JS
     {
         projet: 4,
         img: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/images_projets/landing_page_Gameone.jpg?raw=true",
@@ -253,6 +255,7 @@ const dataportfolio = [
     //     github: "https://github.com/Laurene45/Billed-app-FR-Front",
     //     other: "Api back-end - accès image uniquement",
     // },
+    // CONCEPTION WEB FIGMA
     {
         projet: 10,
         img: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/images_projets/conception_app_soutien_scolaire.jpg?raw=true",
@@ -262,6 +265,16 @@ const dataportfolio = [
         techno: "Figma - User stories - Diagramme d'usage",
         link: "https://www.figma.com/file/z2SDsWS4E079MoM7LdmAaM/Appli-soutien-scolaire-DESKTOP?node-id=0%3A1",
         github: "https://github.com/Laurene45/LaureneCourde_10_22122021",
+    },
+    {
+        projet: 19,
+        img: "https://github.com/Laurene45/Osulloc/blob/main/maquettes/conception_osulloc.jpg?raw=true",
+        title: "OSULLOC",
+        type : "Conception",
+        description: "Application de thé coréen",
+        techno: "Figma",
+        link: "https://www.figma.com/file/EpfbXDjiB5wFx2e1xt751b/Tea-museum?type=design&node-id=18-85&mode=design&t=zoXKVx1FhegnwZFo-0",
+        github: "https://github.com/Laurene45/Osulloc",
     },
     // {
     //     projet: 15,
@@ -273,6 +286,7 @@ const dataportfolio = [
     //     link: "https://www.figma.com/file/bcaryKYEJjV3sv0pyqbekC/PORTFOLIO-DEV-FRONT?node-id=0%3A1",
     //     github: "https://github.com/Laurene45/portfolio-frontend",
     // },
+    // PROJETS REACT.JS
     {
         projet: 11,
         img: "https://github.com/Laurene45/portfolio-frontend/blob/main/react-portfolio/src/assets/images/images_projets/application_kasa.jpg?raw=true",
@@ -345,9 +359,8 @@ const dataportfolio = [
         link: "https://sunnyside-amber.vercel.app/",
         github: "https://github.com/Laurene45/Sunnyside",
     },
-
     {
-        projet: 19,
+        projet: 20,
         img: "",
         title: "",
         type : "",
