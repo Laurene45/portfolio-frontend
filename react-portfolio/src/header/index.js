@@ -47,8 +47,8 @@ const Headermain = () => {
             {logotext}
           </Link> */}
           
-          <Link className="navbar-brand nav_ac" to="/index.html" >
-            <img className="mon_logo" src={logo} alt="logo original"  /> 
+          <Link className="navbar-brand nav_ac" to="/" >
+            <img className="mon_logo" src={logo} alt="logo"  /> 
           </Link>
 
           <div className="d-flex align-items-center">
@@ -65,13 +65,13 @@ const Headermain = () => {
               <div className="menu__container p-3">
                 <ul className="the_menu">
                   <li className="menu_item ">
-                  <Link  onClick={handleToggle} to="/index.html" className="my-3">Accueil </Link>
+                  <Link  onClick={handleToggle} to="/" className="my-3">Accueil </Link>
                   </li>
                   <li className="menu_item">
                     <Link  onClick={handleToggle} to="/projets" className="my-3">Projets </Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/about" className="my-3">Qui suis-je ? </Link>
+                  <Link onClick={handleToggle} to="/services" className="my-3">Services </Link>
                   </li>
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/contact" className="my-3">Contact </Link>
@@ -81,9 +81,9 @@ const Headermain = () => {
             </div>
           </div>
         <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
-            <div className="d-flex">
-              <a href={socialprofils.github}> Github </a>
-              <a href={socialprofils.linkedin}> Linkedin </a>
+            <div className="d-flex social">
+              <a href={socialprofils.github} target="_blank" rel="noopener noreferrer"> Github </a>
+              <a href={socialprofils.linkedin} target="_blank" rel="noopener noreferrer"> Linkedin </a>
             </div>
             <div className="d-flex"></div>
               <a href="/mentions_legales"> Mentions légales, Politique de confidentialité & CGU </a>

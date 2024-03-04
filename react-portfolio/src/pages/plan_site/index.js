@@ -2,6 +2,8 @@ import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 
+import { Link } from "react-router-dom";
+
 export const Plan = () => {
   return (
     <HelmetProvider>
@@ -23,22 +25,22 @@ export const Plan = () => {
           <Col lg="7" className="d-flex align-items-center">
             <div>
               <p> 
-                <a href="/home"> Accueil </a> 
+              <Link to="/" > Accueil </Link>
               </p>
               <p> 
-                <a href="/projets"> Projets  </a> 
-                </p>
-              <p>
-                <a href="/about"> Qui suis-je ? </a> 
+                <Link to="/projets" > Projets </Link>
               </p>
               <p>
-                <a href="/contacts"> Contacts </a>
+                <Link to="/services" > Services </Link>
               </p>
               <p>
-                <a href="/mentions_legales"> CGU & Politique de confidentialité </a>
+                <Link to="/contact" > Contact </Link>
               </p>
               <p>
-                <a href="/plan_site"> Plan du site </a>
+                <Link to="/mentions_legales"> Mentions légales, CGU & Politique de confidentialité </Link>
+              </p>
+              <p>
+                <Link to="/plan_site"> Plan du site </Link>
               </p>
             </div>
           </Col>

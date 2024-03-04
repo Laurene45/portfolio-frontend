@@ -4,7 +4,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-import me from "../../assets/images/accueil/interfacecopiered3.jpg";
+import me from "../../assets/images/accueil/3.JPG";
+//import me from "../../assets/images/accueil/interfacecopiered3.jpg";
 
 
 export const Home = () => {
@@ -32,7 +33,6 @@ export const Home = () => {
                         introdata.animated.first,
                         introdata.animated.second,
                         introdata.animated.third,
-                        introdata.animated.four, 
                       ],
                       autoStart: true,
                       loop: true,
@@ -41,7 +41,7 @@ export const Home = () => {
                   />
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
-                <p className="mb-1x">{introdata.information}</p>
+                <p className="mb-1x">{introdata.information1}</p>
                 <p className="mb-1x">{introdata.information2}</p>
                 <br />
                 <div className="intro_btn-action pb-5">

@@ -3,13 +3,13 @@
 }
 
 .mon_image {
-    width: 160px; 
-    border-radius: 20% 20% 20% 20%;
+    width: 200px; 
+    border-radius: 50%;
     /*border-radius: 70% 30% 70% 30%/20% 80% 30% 70%; */
     border: solid 0.5px #FFFFFF;
     position: relative;
-    left: 30%;
-    top: -10px;
+    left: 15%;
+    top: 30px;
 }
 
 .box_image{
@@ -26,31 +26,32 @@
     padding: 5px;
 }
 
+@media (max-width:991px){
+  .mon_image {
+      width: 250px; 
+      margin-bottom: 120px;
+      left: 30%;
+  }
+}
 
 @media (max-width:768px){
     .mon_image {
-        margin-top: 10px;
-        margin-bottom: 30px;
-        position: relative;
-        left: 38%;
+        margin-bottom: 120px;
+        left: 25%;
     }
 }
 
 @media (max-width:576px){
     .mon_image {
-        margin-top: 10px;
-        margin-bottom: 40px;
-        position: relative;
-        left: 35%;
+        margin-bottom: 120px;
+        left: 20%;
     }
 }
 
 @media (max-width:425px){
     .mon_image {
-        margin-top: 10px;
-        margin-bottom: 40px;
-        position: relative;
-        left: 30%;
+        margin-bottom: 120px;
+        left: 15%;
     }
 }
 
@@ -79,36 +80,6 @@
     overflow: visible;
 }
 
-/* .progress .progress-bar {
-    position: relative;
-    background: var(--text-color);
-    -webkit-animation: animate-positive 2s;
-            animation: animate-positive 2s;
-    overflow: visible;
-    opacity: 0.9;
-} */
-
-/* .progress .progress-value {
-    position: absolute;
-    top: -30px;
-    right: 8px;
-    font-size: 17px;
-    font-weight: bold;
-    font-style: italic;
-    color: var(--text-color);
-}
-
-@-webkit-keyframes animate-positive {
-    0% {
-        width: 0%;
-    }
-}
-
-@keyframes animate-positive {
-    0% {
-        width: 0%;
-    }
-} */
 
 .section-title {
     font-size: 45px;
@@ -123,6 +94,9 @@
     padding-bottom: 4px;
 }
 
+.avis__title {
+    padding: 8px 0;
+}
 
 /*Animation on H3  */
 

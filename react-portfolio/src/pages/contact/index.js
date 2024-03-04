@@ -100,7 +100,7 @@ export const ContactUs = () => {
             <p>Si celui-ci ne fonctionne pas, vous pouvez me contacter via mon email.</p>
             <br />
             <address>
-              <strong>Email:</strong>{" "}
+              <strong>📧</strong>{" "}
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
               </a>

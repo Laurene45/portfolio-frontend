@@ -208,6 +208,9 @@
     color: var(--text-color-3);
 }
 
+.social {
+    margin-left: 50px;
+}
 
 @media (min-width: 768px) {
     .the_menu .menu_item>a {
@@ -217,6 +220,7 @@
         width: 160px;
         margin-top: -6px;
     }
+    
 
 }
 
@@ -237,6 +241,9 @@
     .mon_logo {
         width: 165px;
         margin-top: -6px;
+    }
+    .social {
+        margin-left: 0px;
     }
 }
 

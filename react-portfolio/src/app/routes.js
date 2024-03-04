@@ -4,7 +4,7 @@ import withRouter from "../hooks/withRouter"
 import { Home } from "../pages/home";
 import { Portfolio } from "../pages/projets";
 import { ContactUs } from "../pages/contact";
-import { About } from "../pages/about";
+import { About } from "../pages/services";
 import { Mentions } from "../pages/mentions_legales";
 import { Plan } from "../pages/plan_site";
 import { Error } from "../pages/error";
@@ -25,13 +25,13 @@ const AnimatedRoutes = withRouter(({ location }) => (
       unmountOnExit
     >
       <Routes location={location}>
-        <Route exact path="/index.html" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/services" element={<About />} />
         <Route path="/projets" element={<Portfolio />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/mentions_legales" element={<Mentions/>} />
         <Route path="/plan_site" element={<Plan/>} />
-        <Route path="/" element={<Error />} />
+        <Route path="*" element={<Error />} />
          
       </Routes>
     </CSSTransition>
