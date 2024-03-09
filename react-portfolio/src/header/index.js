@@ -86,7 +86,7 @@ const Headermain = () => {
               <a href={socialprofils.linkedin} target="_blank" rel="noopener noreferrer"> Linkedin </a>
             </div>
             <div className="d-flex"></div>
-              <a href="/mentions_legales"> Mentions légales, Politique de confidentialité & CGU </a>
+              <a href="/mentions_legales"> Mentions légales & Politique de confidentialité</a>
               <a href={CGV}> CGV </a>
               <a href="/plan_site"> Plan du site </a>
               <p className="copyright m-0">© Copyright 2023 __ MaLoWeb</p>

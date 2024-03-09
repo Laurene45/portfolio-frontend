@@ -37,7 +37,7 @@ export const Plan = () => {
                 <Link to="/contact" > Contact </Link>
               </p>
               <p>
-                <Link to="/mentions_legales"> Mentions légales, CGU & Politique de confidentialité </Link>
+                <Link to="/mentions_legales"> Mentions légales & Politique de confidentialité </Link>
               </p>
               <p>
                 <Link to="/plan_site"> Plan du site </Link>
