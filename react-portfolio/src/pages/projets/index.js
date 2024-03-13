@@ -17,8 +17,6 @@ export const Portfolio = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
 
-
-
         <Row className="mb-5 mt-3 pt-md-3 ">
           <Col lg="8">
             <h1 className="display-4 mb-4"> Projets </h1>{" "}
@@ -28,7 +26,7 @@ export const Portfolio = () => {
 
     
         <div className="intro_btn-action pb-5 button">
-          <Link to="/contact">
+          <Link to="/contact" title="/contact">
               <div id="button_h" className="ac_btn btn">
                 Contactez-moi !
                 <div className="ring one"></div>
@@ -49,8 +47,8 @@ export const Portfolio = () => {
                   <p>{data.techno}</p>
                   
                   <div>
-                    <a href={data.link} target="_blank" rel="noopener noreferrer" >voir projet</a>
-                    <a className="github" href={data.github} target="_blank" rel="noopener noreferrer">
+                    <a href={data.link} target="_blank" rel="noopener noreferrer" title={data.link} >voir projet</a>
+                    <a className="github" href={data.github} target="_blank" rel="noopener noreferrer" title={data.github}>
                       <FaGithub />
                     </a>
                     <p className="other">{data.other}</p>

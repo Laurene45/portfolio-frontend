@@ -25,22 +25,22 @@ export const Plan = () => {
           <Col lg="7" className="d-flex align-items-center">
             <div>
               <p> 
-              <Link to="/" > Accueil </Link>
+              <Link to="/" titre="/"> Accueil </Link>
               </p>
               <p> 
-                <Link to="/projets" > Projets </Link>
+                <Link to="/projets" titre="/projets"> Projets </Link>
               </p>
               <p>
-                <Link to="/services" > Services </Link>
+                <Link to="/services" titre="/services"> Services </Link>
               </p>
               <p>
-                <Link to="/contact" > Contact </Link>
+                <Link to="/contact" titre="/contact"> Contact </Link>
               </p>
               <p>
-                <Link to="/mentions_legales"> Mentions légales & Politique de confidentialité </Link>
+                <Link to="/mentions_legales" titre="/mentions_legales"> Mentions légales & Politique de confidentialité </Link>
               </p>
               <p>
-                <Link to="/plan_site"> Plan du site </Link>
+                <Link to="/plan_site" titre="/plan_site"> Plan du site </Link>
               </p>
             </div>
           </Col>

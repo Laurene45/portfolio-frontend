@@ -251,6 +251,7 @@
     .mon_logo {
         width: 165px;
         margin-top: -6px;
+        height: auto;
     }
 }
 

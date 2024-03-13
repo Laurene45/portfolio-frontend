@@ -101,7 +101,7 @@ export const ContactUs = () => {
             <br />
             <address>
               <strong>📧</strong>{" "}
-              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
+              <a href={`mailto:${contactConfig.YOUR_EMAIL}`} title="Email">
                 {contactConfig.YOUR_EMAIL}
               </a>
               <br />
@@ -149,7 +149,7 @@ export const ContactUs = () => {
               <br />
               <Row>
                 <Col lg="12" className="form-group">
-                  <button className="btn ac_btn" type="submit">
+                  <button className="btn ac_btn" type="submit" aria-label="submit">
                     {formData.loading ? "Sending..." : "Send"}
                   </button>
                 </Col>

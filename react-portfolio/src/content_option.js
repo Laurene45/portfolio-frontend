@@ -2,15 +2,15 @@ const logotext = "MaLoWeb";
 // Onglet Portfolio
 const meta = {
     title: "MaLoWeb",
-    description: "Développeur front-end",
+    description: "Développeuse front-end",
 };
 
 // Intro
 const introdata = {
     title: "Laurène C.",
-    job: "Développeur front-end/React.js",
+    job: "Développeuse front-end/React.js",
     animated: {
-        first: "Développeur front-end/React.js",
+        first: "Développeuse front-end/React.js",
         second:"UI/UX design",
         third: "Gestion de projet",
     },
@@ -26,7 +26,7 @@ const dataabout = {
     aboutme2: "Ou optimiser le chargement de celle-ci ?",
     aboutme3: "Vous voulez une interface web développée à partir de composants réutilisables ?",
     aboutme4: "Vous êtes au bon endroit ! 😉 ",
-    aboutme5: "Développeur d’applications web front-end, spécialisé React.js, j’interviens pour des missions de développement web front-end React.js et UI/UX Design. J'apporte ma contribution pour des projets ayant un impact significatif.",
+    aboutme5: "Développeuse d’applications web front-end, spécialisé React.js, j’interviens pour des missions de développement web front-end React.js et UI/UX Design. J'apporte ma contribution pour des projets ayant un impact significatif.",
 };  
 
 const datagoal = {
@@ -38,20 +38,6 @@ const datagoal = {
     goalme5: "Mon approche est d'échanger avec vous et de connaître vos besoins, votre projet pour vous apporter la proposition la plus adaptée.",
 
 };
-
-// const worktimeline = [{
-//         jobtitle: "🎓 Formation Développeur d’applications front-end Js / React.Js",
-//         where: "Openclassrooms Paris (75)",
-//     },
-//     {
-//         jobtitle: "🎓 Formation Webdesigner + stage",
-//         where: "Nextformation Paris (75)",
-//     },
-//     {
-//         jobtitle: "🎓 BTS Force de vente",
-//         where: "Lycée Montargis(45)",
-//     },
-// ];
 
 const services = [{
     title: "☑️ Création d'un projet de développement front-end / React.js,",

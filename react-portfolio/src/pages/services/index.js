@@ -30,7 +30,7 @@ export const About = () => {
         </Row>
             
         <div className="intro_btn-action pb-5 button">
-          <Link to="/contact">
+          <Link to="/contact" title="/contact">
               <div id="button_h" className="ac_btn btn">
                 Contactez-moi !
                 <div className="ring one"></div>

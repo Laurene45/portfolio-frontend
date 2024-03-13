@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-import me from "../../assets/images/accueil/3.JPG";
+import me from "../../assets/images/accueil/3.webp";
 //import me from "../../assets/images/accueil/interfacecopiered3.jpg";
 
 
@@ -20,7 +20,7 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
             className="h_bg-image order-1 order-lg-2 h-30 "
-            style={{ backgroundImage: `url(${me})` }}
+            style={{ backgroundImage: `url(${me})`}}
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
@@ -45,7 +45,7 @@ export const Home = () => {
                 <p className="mb-1x">{introdata.information2}</p>
                 <br />
                 <div className="intro_btn-action pb-5">
-                  <Link to="/projets" className="text_2">
+                  <Link to="/projets" className="text_2" title="/projets">
                     <div id="button_p" className="ac_btn btn ">
                       Projets
                       <div className="ring one"></div>
@@ -53,7 +53,7 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="/contact">
+                  <Link to="/contact" title="/contact">
                     <div id="button_h" className="ac_btn btn">
                       Contactez-moi !
                       <div className="ring one"></div>

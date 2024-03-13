@@ -80,7 +80,6 @@
     overflow: visible;
 }
 
-
 .section-title {
     font-size: 45px;
 }
@@ -99,12 +98,10 @@
 }
 
 /*Animation on H3  */
-
 .fade-in-left {
 	-webkit-animation: fade-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
 	        animation: fade-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
 }
-
 
  @-webkit-keyframes fade-in-left {
     0% {
@@ -127,9 +124,9 @@
     }
   }
   
-  .fade-in-right {
-	-webkit-animation: fade-in-right 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
-	        animation: fade-in-right 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
+.fade-in-right {
+-webkit-animation: fade-in-right 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
+	      animation: fade-in-right 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
 }
 
  @-webkit-keyframes fade-in-right {
@@ -151,10 +148,9 @@
       transform: translateX(0);
       opacity: 1;
     }
-  }
+}
   
-
-  /*Animationn on MonImage */
+/*Animationn on MonImage */
 
   .scale-up-center {
     -webkit-animation: scale-up-center 3s linear 1.5s both;
