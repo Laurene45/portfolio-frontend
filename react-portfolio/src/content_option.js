@@ -262,7 +262,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/Laurene45",
-    linkedin: "https://www.linkedin.com/in/laurene-courde-0b094989/",
+    linkedin: "https://www.linkedin.com/in/laurene-courde/",
 };
 export {
     meta,
