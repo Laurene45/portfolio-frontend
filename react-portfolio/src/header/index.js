@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
 import logo from "../assets/images/logos/logo_black_petit_format.JPG";
-import CGV from "../assets/pdf/CGV_2023.pdf";
+import CGV from "../assets/pdf/CGV Maloweb mise en forme site web.pdf";
 import { useEffect } from "react";
 
 const Headermain = () => {
